@@ -1,0 +1,18 @@
+package variaveis_numericas;
+
+public class VariaveisNumericas {
+	
+	public static void main(String[] args) {
+		
+		int idadePedro;
+		int idadeMarcos;
+		idadePedro = 50;
+		idadeMarcos = 27;
+		
+		int somaDasIdades = idadePedro + idadeMarcos;
+		
+		
+		System.out.println("A soma das idades é " + somaDasIdades);
+	}
+
+}

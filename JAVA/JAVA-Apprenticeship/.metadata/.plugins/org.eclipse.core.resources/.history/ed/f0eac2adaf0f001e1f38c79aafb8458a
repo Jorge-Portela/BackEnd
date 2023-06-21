@@ -1,0 +1,22 @@
+package sintaxe_variaveis_e_fluxo;
+
+public class Rascunho {
+	public static void main(String[] args) {
+		
+		double salario;
+		boolean foiPromovido = true;
+		
+		if (foiPromovido = false) {
+			
+			salario = 4200.0;
+		
+		} else {
+			
+			salario = 3800.0;
+			
+		}
+		
+		System.out.println(salario);
+	}
+
+}

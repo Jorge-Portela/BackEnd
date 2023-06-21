@@ -1,0 +1,8 @@
+package conversao_variavel;
+
+public class TestaConversao {
+	
+	public static void main(String[] args) {
+		
+	}
+}

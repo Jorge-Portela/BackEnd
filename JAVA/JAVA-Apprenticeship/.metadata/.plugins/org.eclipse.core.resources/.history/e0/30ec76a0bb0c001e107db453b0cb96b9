@@ -1,0 +1,13 @@
+package ponto_flutuante;
+
+public class TestaPontoFlutuante {
+	
+	public static void main(String[] args) {
+		
+		double salario;
+		salario = 1800.78;
+		
+		System.out.println("Meu salário é " + salario);
+	}
+
+}
