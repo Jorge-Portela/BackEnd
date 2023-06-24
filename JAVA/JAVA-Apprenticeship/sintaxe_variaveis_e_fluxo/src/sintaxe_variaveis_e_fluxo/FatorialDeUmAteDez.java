@@ -9,7 +9,7 @@ public class FatorialDeUmAteDez {
 			
 			fatorial *= i;
 			
-			System.out.println("Fatorial de " + i + " = " + fatorial);
+			System.out.println("Fatorial de " + i + " = " + fatorial + ".");
 			
 		}
 	}
