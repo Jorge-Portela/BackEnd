@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module sintaxe_basica {
-}

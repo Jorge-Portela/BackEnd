@@ -13,5 +13,13 @@ public class CriaConta {
 		segundaConta.saldo = 50;
 		System.out.println("A primeira conta possui um saldo de R$" + primeiraConta.saldo);
 		System.out.println("A segunda conta possui um saldo de R$" + segundaConta.saldo);
+		
+		System.out.println("As agências da região Sulinicam-se com "
+		+ segundaConta.agencia);
+		
+		segundaConta.agencia = 146;
+		System.out.println("A agência de Sulacap é " + segundaConta.agencia);
+		
+		
 	}
 }
