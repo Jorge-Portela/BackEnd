@@ -5,4 +5,10 @@ public class Conta {
 	int agencia;
 	int numero;
 	String nome;
+	
+	public void deposita(double valor){
+		
+	this.saldo += valor;
+		
+	}
 }
