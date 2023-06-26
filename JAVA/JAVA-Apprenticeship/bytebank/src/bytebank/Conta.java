@@ -6,10 +6,8 @@ public class Conta {
 	int numero;
 	String nome;
 
-	public void deposita(double valor) {
-
+	void deposita(double valor) {
 		this.saldo += valor;
-
 	}
 
 	public boolean saca(double valor) {
@@ -18,8 +16,22 @@ public class Conta {
 			this.saldo -= valor;
 			return true;
 		} else {
+
 			return false;
+
 		}
 
 	}
+	
+	public boolean transfere(double valor, Conta destino) {
+		if(this.saldo >= valor) {
+			this.saldo -= valor;
+			destino.deposita(valor);
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+	
 }
