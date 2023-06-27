@@ -6,4 +6,6 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>
