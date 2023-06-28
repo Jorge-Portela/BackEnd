@@ -9,7 +9,7 @@ public class TestaContaSemCliente {
 
 		Conta contaDaMarcela = new Conta();
 
-		System.out.println(contaDaMarcela.saldo);
+		System.out.println(contaDaMarcela.getSaldo());
 		
 	
 
