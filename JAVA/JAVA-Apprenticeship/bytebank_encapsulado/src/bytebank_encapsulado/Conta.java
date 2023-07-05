@@ -6,17 +6,22 @@ public class Conta { // a classe instanciou o objeto Conta
 	private int agencia; // atributo agencia
 	private int numero; // atributo núemro
 	private Cliente titular; // atríbuto titular
+	private static int total;// inserido a palavra-chave "static", para que o atributo "total" seja da classe
+								// geral e não apenas de uma determinada instância
 
 	
+	
+	
 	public Conta(int agencia, int numero) {
+		Conta.total ++; // adicionamos a classe geral "Conta" e não o "this" na variável "total" para
+		// referência-la para a classe "Conta" em geral e não apenas à uma instanciação
 		this.agencia = agencia;
 		this.numero = numero;
-		System.out.println("Estou criando uma conta " + this.numero);
-	}
-	
-	
-	
-	
+		this.saldo = 100; // isso sognofoca que toda conta começa com 100 de saldo
+		System.out.println("Criada conta numero: "+ this.numero	
+				+ " na agencia: " + this.agencia);
+		System.out.println("Total de contas criadas: " + Conta.total);
+	} 
 	
 	// declarar os métodos: deposita, saca, transferencia para o objeto Conta
 
@@ -69,7 +74,7 @@ public class Conta { // a classe instanciou o objeto Conta
 	}
 
 	public void setAgencia(int agencia) {
-		if(agencia<=0) {
+		if (agencia <= 0) {
 			System.out.println("Apenas valor maior que 0");
 			return;
 		}
@@ -77,14 +82,19 @@ public class Conta { // a classe instanciou o objeto Conta
 	}
 
 	public void setNumero(int numero) {
-		if(numero <=0) {
+		if (numero <= 0) {
 			System.out.println("Apenas valor maior que 0");
 			return;
 		}
 		this.numero = numero;
 	}
+
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
 
+	public static int getTotal() {
+		return Conta.total;
+	}
+	
 }
