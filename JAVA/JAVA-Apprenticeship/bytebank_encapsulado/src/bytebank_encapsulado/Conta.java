@@ -58,9 +58,20 @@ public class Conta { // a classe instanciou o objeto Conta
 	}
 
 	public void setAgencia(int agencia) {
+		if(agencia<=0) {
+			System.out.println("Apenas valor maior que 0");
+			return;
+		}
 		this.agencia = agencia;
 	}
 
+	public void setNumero(int numero) {
+		if(numero <=0) {
+			System.out.println("Apenas valor maior que 0");
+			return;
+		}
+		this.numero = numero;
+	}
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
