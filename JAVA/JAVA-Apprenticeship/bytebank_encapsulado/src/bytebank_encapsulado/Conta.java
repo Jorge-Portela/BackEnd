@@ -7,6 +7,17 @@ public class Conta { // a classe instanciou o objeto Conta
 	private int numero; // atributo núemro
 	private Cliente titular; // atríbuto titular
 
+	
+	public Conta(int agencia, int numero) {
+		this.agencia = agencia;
+		this.numero = numero;
+		System.out.println("Estou criando uma conta " + this.numero);
+	}
+	
+	
+	
+	
+	
 	// declarar os métodos: deposita, saca, transferencia para o objeto Conta
 
 	public void deposita(double valor) { // suso do parâmetro valor junto ao tipo "dobule"
