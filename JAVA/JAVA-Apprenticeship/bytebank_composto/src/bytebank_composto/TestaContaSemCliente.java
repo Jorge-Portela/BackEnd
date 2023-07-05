@@ -9,20 +9,18 @@ public class TestaContaSemCliente {
 		Cliente marcela = new Cliente();
 		
 		contaDaMarcela.deposita(100);
-		contaDaMarcela.setSaldo(marcela);
-
-		System.out.println(contaDaMarcela.getSaldo(marcela));
+		
+		System.out.println(contaDaMarcela.getSaldo());
 		
 		
-		
-		
+				
 		
 		
 		marcela.setNome("Marcela Silva");
 		
 		contaDaMarcela.setTitular(marcela);
 		
-		System.out.println();
+		System.out.println(contaDaMarcela.getTitular().getNome());
 		
 	
 
