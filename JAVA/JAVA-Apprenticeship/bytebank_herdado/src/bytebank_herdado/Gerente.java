@@ -1,8 +1,8 @@
 package bytebank_herdado;
-
+//Classe Gerente é filha da Classe Funcionário na relação de Herança
 public class Gerente extends Funcionario {
 	
-	private int senha;
+	private int senha; //atributo carterístico da classe Gerente
 	
 	public Gerente() {}
 	
