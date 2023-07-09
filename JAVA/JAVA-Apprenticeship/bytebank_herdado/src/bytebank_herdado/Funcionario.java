@@ -4,7 +4,11 @@ public class Funcionario {
 	
 	private String nome;
 	private String cpf;
-	private double salario;
+	private double salario; // a palavra chave protected faz com que somente
+    //sublcasses(classes filhas) ou classes do mesmo pacote, possam ter acesso 
+    //aos atributo, método ou construtores qual ela foi empregada
+	
+	
 
 	// regra de negócio: Todo funcionário padrão terá uma bonificação de 10%
 	// no salário
@@ -12,7 +16,7 @@ public class Funcionario {
 	public Funcionario() {}
 	
 	public double getBonificacao() {
-		return this.salario * 0.1; 
+		return this.salario * 0.05; 
 	}
 	
 	public String getNome() {

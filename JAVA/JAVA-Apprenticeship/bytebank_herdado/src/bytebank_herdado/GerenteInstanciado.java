@@ -17,6 +17,7 @@ public class GerenteInstanciado {
 		System.out.println(gerente1.getCpf());
 		System.out.println(gerente1.getSalario());
 		System.out.println(autenticado);
+		System.out.println(gerente1.getBonificacao());
 		
 		
 	}
