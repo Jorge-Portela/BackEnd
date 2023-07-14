@@ -2,23 +2,19 @@ package bytebank_herdado;
 
 public class ControleBonificacao {
 	
-	
 	private double soma;
 	
-	public void registra(Gerente gerente) {
-		double boni = gerente.getBonificacao();
-		this.soma = this.soma + boni;
+//O método 'registra' abaixo é executável para todos as outras classes 
+// instanciadas pois recebe uma referência do tipo 'Fncionario', a classe
+//'super'(mãe) das outras classes. Fazendo com que ela seja a mais genérica
 	
+	public void registra(Funcionario funcionario1) {
+		double bonificacao = funcionario1.getBonificacao();
+		this.soma += bonificacao;
 	}
-	
-	public void registra(Funcionario funcionario) {
-		double boni = funcionario.getBonificacao();
-		this.soma = this.soma + boni;
-	}
-	
-	
+
 	public double getSoma() {
-		return soma;
+		return this.soma;
 	}
 	
 }

@@ -21,6 +21,7 @@ public class Gerente extends Funcionario {
 	}
 	
 	public double getBonificacao() {
+		System.out.println("Chamando o método bonificacao do GERENTE");
 		return super.getBonificacao() + super.getSalario(); //a palavra-chave 'super'
 		// faz com que o compilador entenda que o atributo pertence 
 		//a classe mãe
@@ -28,3 +29,5 @@ public class Gerente extends Funcionario {
 	
 	
 }
+
+
