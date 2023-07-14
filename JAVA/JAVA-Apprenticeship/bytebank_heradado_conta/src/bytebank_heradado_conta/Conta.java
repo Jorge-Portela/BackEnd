@@ -10,7 +10,7 @@ public class Conta { // a classe instanciou o objeto Conta
 							 //geral e não apenas de uma determinada instância
 
 	
-	
+		
 	
 	public Conta(int agencia, int numero) {
 		Conta.total ++; // adicionamos a classe geral "Conta" e não o "this" na variável "total" para
