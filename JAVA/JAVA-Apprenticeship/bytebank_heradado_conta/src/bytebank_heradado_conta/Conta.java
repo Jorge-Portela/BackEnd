@@ -17,20 +17,20 @@ public class Conta { // a classe instanciou o objeto Conta
 		// referência-la para a classe "Conta" em geral e não apenas à uma instanciação
 		this.agencia = agencia;
 		this.numero = numero;
-		this.saldo = 100; // isso sognofoca que toda conta começa com 100 de saldo
-		System.out.println("Criada conta numero: "+ this.numero	
-				+ " na agencia: " + this.agencia);
-		System.out.println("Total de contas criadas: " + Conta.total);
+		//this.saldo = 100; // isso sognifoca que toda conta começa com 100 de saldo
+		//System.out.println("Criada conta numero: "+ this.numero	
+		//		+ " na agencia: " + this.agencia);
+		//System.out.println("Total de contas criadas: " + Conta.total);
 	} 
 	
 	// declarar os métodos: deposita, saca, transferencia para o objeto Conta
 
-	public void deposita(double valor) { // suso do parâmetro valor junto ao tipo "dobule"
-		this.saldo = this.saldo + valor; // Uso do this para envocar o método
+	public void deposita(double valor) { 
+		this.saldo = this.saldo + valor; 
 	}
 
-	public boolean saca(double valor) { // uso de condicional para validar se
-		if (this.saldo >= valor) { // há saldo positivo para ser sacado
+	public boolean saca(double valor) { 
+		if (this.saldo >= valor) { 
 			this.saldo = this.saldo - valor;
 			return true;
 		} else {
@@ -40,8 +40,7 @@ public class Conta { // a classe instanciou o objeto Conta
 	}
 
 	public boolean transfere(double valor, Conta destino) { // uso de condicional
-		if (this.saldo >= valor) { // para validar se há saldo para transferir
-			this.saldo = this.saldo - valor;
+		if (this.saca(valor)) { 
 			destino.deposita(valor);
 			return true;
 		} else {
