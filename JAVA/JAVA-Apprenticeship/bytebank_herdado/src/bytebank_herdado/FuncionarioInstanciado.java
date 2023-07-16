@@ -3,28 +3,28 @@ package bytebank_herdado;
 public class FuncionarioInstanciado {
 	public static void main(String[] args) {
 		
-		Funcionario funcionario1 = new Gerente();
+		Gerente mark = new Gerente();
 		
-		funcionario1.setNome("Mark Steel");
-		funcionario1.setCpf("55547-9");
-		funcionario1.setSalario(2800.0);
+		mark.setNome("Mark Steel");
+		mark.setCpf("55547-9");
+		mark.setSalario(2800.0);
 		
-		System.out.println(funcionario1.getNome());
-		System.out.println(funcionario1.getCpf());
-		System.out.println(funcionario1.getSalario());
-		System.out.println(funcionario1.getBonificacao());
+		System.out.println(mark.getNome());
+		System.out.println(mark.getCpf());
+		System.out.println(mark.getSalario());
+		System.out.println(mark.getBonificacao());
 		
 		System.out.println();
 		
-		Funcionario funcionario2 = new Designer();
+		Designer stanley = new Designer();
 		
-		funcionario2.setNome("Stanley Rodgers");
-		funcionario2.setCpf("98213-4");
-		funcionario2.setSalario(3100.0);
+		stanley.setNome("Stanley Rodgers");
+		stanley.setCpf("98213-4");
+		stanley.setSalario(3100.0);
 		
-		System.out.println(funcionario2.getNome());
-		System.out.println(funcionario2.getCpf());
-		System.out.println(funcionario2.getSalario());
-		System.out.println(funcionario2.getBonificacao());
+		System.out.println(stanley.getNome());
+		System.out.println(stanley.getCpf());
+		System.out.println(stanley.getSalario());
+		System.out.println(stanley.getBonificacao());
 	}
 }

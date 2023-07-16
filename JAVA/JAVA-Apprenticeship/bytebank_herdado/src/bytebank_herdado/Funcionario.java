@@ -1,5 +1,6 @@
 package bytebank_herdado;
 
+// não podemos instanciar essa classe, pois a mesma é do tipo abstrata
 public abstract class Funcionario {
 	
 	private String nome;
@@ -15,9 +16,12 @@ public abstract class Funcionario {
 	
 	public Funcionario() {}
 	
-	public double getBonificacao() {
-		return this.salario * 0.05; 
-	}
+	// metodo sem corpo, nao ha implementacao
+	
+	public abstract double getBonificacao(); 
+	 
+
+
 	
 	public String getNome() {
 		return this.nome;
