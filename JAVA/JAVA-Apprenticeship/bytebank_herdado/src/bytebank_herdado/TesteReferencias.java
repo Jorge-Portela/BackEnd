@@ -4,6 +4,8 @@ public class TesteReferencias {
 	
 	public static void main(String[] args) {
 		
+		
+		
 		Gerente gerente1 = new Gerente();
 		gerente1.setNome("Rogerio");
 		gerente1.setSalario(5000.0);

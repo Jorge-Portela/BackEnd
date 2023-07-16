@@ -3,7 +3,7 @@ package bytebank_herdado;
 public class FuncionarioInstanciado {
 	public static void main(String[] args) {
 		
-		Funcionario funcionario1 = new Funcionario();
+		Funcionario funcionario1 = new Gerente();
 		
 		funcionario1.setNome("Mark Steel");
 		funcionario1.setCpf("55547-9");
@@ -16,7 +16,7 @@ public class FuncionarioInstanciado {
 		
 		System.out.println();
 		
-		Funcionario funcionario2 = new Funcionario();
+		Funcionario funcionario2 = new Designer();
 		
 		funcionario2.setNome("Stanley Rodgers");
 		funcionario2.setCpf("98213-4");
