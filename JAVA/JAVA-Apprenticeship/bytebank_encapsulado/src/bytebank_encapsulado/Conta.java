@@ -40,8 +40,7 @@ public class Conta { // a classe instanciou o objeto Conta
 	}
 
 	public boolean transfere(double valor, Conta destino) { // uso de condicional
-		if (this.saldo >= valor) { // para validar se há saldo para transferir
-			this.saldo = this.saldo - valor;
+		if (this.saca(valor)) { // para validar se há saldo para transferir
 			destino.deposita(valor);
 			return true;
 		} else {

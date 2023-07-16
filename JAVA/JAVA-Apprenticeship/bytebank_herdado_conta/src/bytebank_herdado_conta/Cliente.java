@@ -1,4 +1,4 @@
-package bytebank_heradado_conta;
+package bytebank_herdado_conta;
 
 public class Cliente {
 	

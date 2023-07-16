@@ -1,30 +1,25 @@
-package bytebank_heradado_conta;
+package bytebank_herdado_conta;
 
-public class Conta { // a classe instanciou o objeto Conta
+public class Conta { 
 
-	private double saldo; // atributo saldo
-	private int agencia; // atributo agencia
-	private int numero; // atributo núemro
-	private Cliente titular; // atríbuto titular
-	private static int total;//inserido a palavra-chave "static", para que o atributo "total" seja da classe
-							 //geral e não apenas de uma determinada instância
-
+	private double saldo; 
+	private int agencia; 
+	private int numero; 
+	private Cliente titular; 
+	private static int total;	
 	
-		
 	
 	public Conta(int agencia, int numero) {
-		Conta.total ++; // adicionamos a classe geral "Conta" e não o "this" na variável "total" para
-		// referência-la para a classe "Conta" em geral e não apenas à uma instanciação
+		Conta.total ++; 
 		this.agencia = agencia;
 		this.numero = numero;
-		//this.saldo = 100; // isso sognifoca que toda conta começa com 100 de saldo
-		//System.out.println("Criada conta numero: "+ this.numero	
-		//		+ " na agencia: " + this.agencia);
-		//System.out.println("Total de contas criadas: " + Conta.total);
+  //	this.saldo = 100;
+		System.out.println("Criada conta numero: "+ this.numero	
+				+ " na agencia: " + this.agencia);
+		System.out.println("Total de contas criadas: " + Conta.total);
 	} 
 	
-	// declarar os métodos: deposita, saca, transferencia para o objeto Conta
-
+	
 	public void deposita(double valor) { 
 		this.saldo = this.saldo + valor; 
 	}
@@ -39,7 +34,7 @@ public class Conta { // a classe instanciou o objeto Conta
 		}
 	}
 
-	public boolean transfere(double valor, Conta destino) { // uso de condicional
+	public boolean transfere(double valor, Conta destino) { 
 		if (this.saca(valor)) { 
 			destino.deposita(valor);
 			return true;
@@ -48,9 +43,7 @@ public class Conta { // a classe instanciou o objeto Conta
 		}
 	}
 
-	// Inclusão de encapsulamento(GETTERS e SETTERS) para tornar a classe mais
-	// segura e eficiente. Se faz necessário mudar o acesso dos atributos para
-	// privado
+
 
 	public double getSaldo() {
 		return this.saldo;
