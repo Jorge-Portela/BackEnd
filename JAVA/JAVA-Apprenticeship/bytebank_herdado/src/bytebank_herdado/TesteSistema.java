@@ -4,12 +4,17 @@ public class TesteSistema {
 
 	public static void main(String[] args) {
 		
-		Gerente flavio = new Gerente();
-		flavio.setNome("Flavio Melo");
-		flavio.setSenha(223);
+		Gerente g = new Gerente();
+		g.setNome("Flavio Melo");
+		g.setSenha(223);
 		
+		Administrador adm = new Administrador();
+		adm.setSenha(3333);
+		
+				
 		SistemaInterno si = new SistemaInterno();
-		si.autentica(flavio);
+		si.autentica(g);
+		si.autentica(adm);
 		
 	
 	}

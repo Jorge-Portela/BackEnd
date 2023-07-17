@@ -19,7 +19,23 @@ public abstract class Funcionario {
 	// metodo sem corpo, nao ha implementacao
 	
 	public abstract double getBonificacao(); 
-	 
+	
+	
+	private int senha;
+	
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	
+	
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 
 
 	
@@ -46,5 +62,7 @@ public abstract class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
+	
 	
 }
