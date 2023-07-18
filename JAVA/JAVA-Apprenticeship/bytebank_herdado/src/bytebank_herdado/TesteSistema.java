@@ -13,12 +13,15 @@ public class TesteSistema {
 		
 		Autenticavel referencia = new Cliente();
 		
+		AutenticacaoUtil autl = new AutenticacaoUtil();
 		
+			
 		
 				
 		SistemaInterno si = new SistemaInterno();
 		si.autentica(g);
 		si.autentica(adm);
+		
 		
 	
 	}
