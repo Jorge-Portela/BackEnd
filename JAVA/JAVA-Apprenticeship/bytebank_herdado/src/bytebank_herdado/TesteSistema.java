@@ -6,10 +6,14 @@ public class TesteSistema {
 		
 		Gerente g = new Gerente();
 		g.setNome("Flavio Melo");
-		g.setSenha(223);
+		g.setSenha(222);
 		
 		Administrador adm = new Administrador();
-		adm.setSenha(3333);
+		adm.setSenha(333);
+		
+		Autenticavel referencia = new Cliente();
+		
+		
 		
 				
 		SistemaInterno si = new SistemaInterno();
