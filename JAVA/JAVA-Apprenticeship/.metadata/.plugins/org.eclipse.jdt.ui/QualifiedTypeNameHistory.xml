@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="bytebank_herdado.Autenticavel"/>
     <fullyQualifiedTypeName name="bytebank_herdado.AutenticacaoUtil"/>
     <fullyQualifiedTypeName name="bytebank_herdado_conta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="draft_animals.Animal"/>
 </qualifiedTypeNameHistroy>
