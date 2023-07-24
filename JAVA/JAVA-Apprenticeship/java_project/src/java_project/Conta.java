@@ -1,5 +1,5 @@
 package java_project;
 
 public class Conta {
-	void deposita() {};
+	void deposita() throws MinhaExcecao {};
 }

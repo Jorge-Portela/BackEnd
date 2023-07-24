@@ -1,7 +1,7 @@
 package bytebank_herdado_conta;
 
 public class TesteContas {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SaldoInsuficienteException {
 		
 		
 		
@@ -11,7 +11,7 @@ public class TesteContas {
 		ContaPoupanca cp = new ContaPoupanca(2222, 36541-7);
 		cp.deposita(200.0);
 		
-		cc.transfere(50.0, cp);
+		cc.transfere(990.0, cp);
 		
 		System.out.println("Saldo da CC: " + cc.getSaldo());
 		System.out.println("Saldo da CP: " + cp.getSaldo());
