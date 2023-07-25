@@ -1,4 +1,8 @@
-package bytebank_herdado_conta;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
 
 public class TesteContas {
 	public static void main(String[] args) throws SaldoInsuficienteException {
