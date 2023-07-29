@@ -11,6 +11,7 @@
     <fullyQualifiedTypeName name="draft_animals.Animal"/>
     <fullyQualifiedTypeName name="bytebank_herdado_conta.SaldoInsuficienteException"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
 </qualifiedTypeNameHistroy>

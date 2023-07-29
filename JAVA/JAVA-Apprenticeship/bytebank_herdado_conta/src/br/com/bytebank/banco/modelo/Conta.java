@@ -4,7 +4,7 @@ package br.com.bytebank.banco.modelo;
  * Classe representa uma conta no bytebank 
  * 
  * @author jorge
- * @version 0.1
+ * @version 0.2
  * 
  * 
  */
@@ -46,7 +46,7 @@ package br.com.bytebank.banco.modelo;
 	 * Valor precisa ser menor ou igual ao saldo 
 	 * 
 	 * @param valor
-	 * @param SaldoInfucienteException
+	 * @throws SaldoInfucienteException
 	 * 
 	 * */
 
