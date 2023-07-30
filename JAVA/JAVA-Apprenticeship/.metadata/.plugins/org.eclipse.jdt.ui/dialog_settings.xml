@@ -131,7 +131,7 @@
 	</section>
 	<section name="JavadocWizardDialog">
 		<item key="DIALOG_X_ORIGIN" value="79"/>
-		<item key="DIALOG_Y_ORIGIN" value="-2"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="616"/>
 		<item key="DIALOG_HEIGHT" value="567"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -154,17 +154,17 @@
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="20"/>
 		<item key="antpath" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\doc"/>
+		<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\doc\updated_docs"/>
 		<section name="projects">
 			<section name="bytebank_herdado_conta">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\doc"/>
+				<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\doc\updated_docs"/>
 				<item key="antpath" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_herdado_conta\javadoc.xml"/>
 			</section>
-			<section name="java_project">
+			<section name="bytebank_biblioteca">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\java_project\doc"/>
-				<item key="antpath" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\java_project\javadoc.xml"/>
+				<item key="destdir" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_biblioteca\doc"/>
+				<item key="antpath" value="C:\Users\jorge\OneDrive\Documentos\GitHub\BackEnd\JAVA\JAVA-Apprenticeship\bytebank_biblioteca\javadoc.xml"/>
 			</section>
 		</section>
 	</section>
@@ -188,6 +188,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\jorge\OneDrive\Área de Trabalho\jar_file\bytebank-2.0\bytebank-2.0.jar"/>
 			<item value="C:\Users\jorge\OneDrive\Área de Trabalho\jar_file\jar_files.jar"/>
 		</list>
 	</section>
