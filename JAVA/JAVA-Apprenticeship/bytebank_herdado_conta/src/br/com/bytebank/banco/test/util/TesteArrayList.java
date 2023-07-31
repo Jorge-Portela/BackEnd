@@ -1,13 +1,17 @@
 package br.com.bytebank.banco.test.util;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import br.com.bytebank.banco.modelo.*;
 
-public class Teste {
+public class TesteArrayList {
 	
 	    public static void main(String[] args) {
 
 	        ArrayList<Conta> lista = new ArrayList<Conta>();
+	        //List<Conta> lista = new LinkedList<Conta>(); //lista linkada
+	        //Collection<Conta> lista = new Vector<Conta>(); //usa array por baixo,
+	                                                 //mas tbm é threadsafe
 
 	        Conta cc = new ContaCorrente(22, 11);
 	        lista.add(cc);
