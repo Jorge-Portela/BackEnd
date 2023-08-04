@@ -14,7 +14,7 @@ public class InputDeDados {
 		String x;
 		int y;
 		double z;
-		char w;
+		char w ;
 		
 		x = sc.next();
 		y = sc.nextInt();
