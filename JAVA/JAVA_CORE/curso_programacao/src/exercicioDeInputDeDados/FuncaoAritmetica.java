@@ -19,11 +19,14 @@ public class FuncaoAritmetica {
 		A = Math.pow(x, y);
 		B = Math.pow(x, 2.0);
 		C = Math.pow(5.0, 2.0);
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		System.out.println(x+" raised to "+y);
+		System.out.println(x+" squared = "+B);
+		System.out.println("5 squared = "+C);
 		
-		
+		A = Math.abs(y);
+		B = Math.abs(z);
+		System.out.println("Absolute value of "+y+" = "+A);
+		System.out.println("Absolute value of "+z+" = "+B);
 		
 		
 		
