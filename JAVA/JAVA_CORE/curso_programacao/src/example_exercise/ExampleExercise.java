@@ -1,41 +1,43 @@
 package example_exercise;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class ExampleExercise {
 	public static void main(String[] args) {
 		
-//		Fazer um programa para ler as medidas da largura e comprimento
-//		de um terreno retangular com uma casa decimal, bem como o 
-//		valor do metro quadrado do terreno com duas casas decimais. 
-//		Em seguida, o programa deve mostrar o valor da área do terreno, 
-//		bem como o valor do preço do terreno, ambos com duas casas
-//		decimais, conforme exemplo.
+//Write a program to read measurements of width and length of a 
+//rectangular land to one decimal place, as well as the square meter
+//value of the land to two decimal places.Then, the program should show
+//the land area value, as well as the land price value, both with two
+//decimal places, as in the example.
+		
+		Locale.setDefault(Locale.US);
 		
 		Scanner sc = new Scanner(System.in);
 		
-		double larguraDoTerreno;
-		double comprimentoDoTerreno;
-		double areaDoTerreno;
-		double vlrMetroQuadrado;
-		double vlrDoTerreno;
+		double widthOfLand;
+		double lengthOfLand;
+		double squareOfLand;
+		double squarePrice;
+		double priceOfLand;
 		
-		System.out.println("Insira a largura do Terreno: ");
-		larguraDoTerreno = sc.nextDouble();
+		System.out.println("Enter the Width of Land: ");
+		widthOfLand = sc.nextDouble();
 		
-		System.out.println("Insira o comprimento do Terreno: ");
-		comprimentoDoTerreno = sc.nextDouble();
+		System.out.println("Enter the Length of Land: ");
+		lengthOfLand = sc.nextDouble();
 		
-		System.out.println("Insira o valor do metro quadrado: ");
-		vlrMetroQuadrado = sc.nextDouble();
+		System.out.println("Enter the price per square meter of land: ");
+		squarePrice = sc.nextDouble();
 		
-		//Calculo da Área do terreno
-		areaDoTerreno = larguraDoTerreno * comprimentoDoTerreno;
+		//Calculus of land area
+		squareOfLand = widthOfLand * lengthOfLand;
 		
-		vlrDoTerreno = vlrMetroQuadrado * areaDoTerreno;
+		priceOfLand = squarePrice * squareOfLand;
 		
-		System.out.printf("Área do Terreno: %.2f m² \n",areaDoTerreno);
-		System.out.printf("Preço do Terreno: R$ %.2f",vlrDoTerreno);
+		System.out.printf("Land Area: %.2f m² \n",squareOfLand);
+		System.out.printf("Land Price: USD$ %.2f",priceOfLand);
 		
 		
 		
