@@ -32,6 +32,8 @@ public class Main {
 		
 		System.out.println("DIFERENCE = "+diference);
 		
+		reader.close();
+		
 		
 		
 		
