@@ -1,4 +1,4 @@
-package secao04EstruturasSequencial;
+package secao04EstruturasSequencial_exercise01;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -13,9 +13,7 @@ public class Main {
 //	-30
 //	10
 //	Saída:
-//	SOMA = -20
-
-		
+//	SOMA = -20		
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 		
