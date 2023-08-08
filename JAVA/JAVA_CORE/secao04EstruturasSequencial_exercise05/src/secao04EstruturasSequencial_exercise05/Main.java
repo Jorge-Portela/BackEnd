@@ -19,13 +19,9 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 		
-		int pieceCode1;
-		int pieceNumber1;
-		double piecePrice1;
-		int pieceCode2;
-		int pieceNumber2;
-		double piecePrice2;
-		double TotalpiecePrice;
+		int pieceCode1,pieceNumber1,pieceCode2,pieceNumber2;
+		double piecePrice1,piecePrice2,TotalPrice;
+		
 		
 		System.out.println("Enter the CODE, NUMBER and PRICE OF PIECE 1:");
 		
@@ -44,9 +40,9 @@ public class Main {
 		
 		piecePrice2 = piecePrice2 * pieceNumber2;
 		
-		TotalpiecePrice = piecePrice1 + piecePrice2;
+		TotalPrice = piecePrice1 + piecePrice2;
 		
-		System.out.printf("Amount to pay: USD$ %.2f",TotalpiecePrice );
+		System.out.printf("Amount to pay: USD$ %.2f",TotalPrice);
 		
 		
 		reader.close();
