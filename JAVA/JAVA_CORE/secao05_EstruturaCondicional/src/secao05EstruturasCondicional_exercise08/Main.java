@@ -38,32 +38,34 @@ public class Main {
 		
 		double income, taxIncome;
 		
-		System.out.println("Enter the Average Monthly Income:");
+		System.out.print("Enter the Average Monthly Income:  ");
 		income = reader.nextDouble();
 		
 		if(income <= 2000.00 ) 
 		{
 			taxIncome = income;
-			System.out.println("FREE of Tax Income.");
+			System.out.printf("%nFREE of Tax Income.");
 			
 		}else if(income > 2000.00 && income <=3000.00)
 			{
 				taxIncome = (income - 200.00) * 0.08 ;
-				System.out.printf("The Tax Income is: USD$ %.2f .",taxIncome);
+				System.out.printf("%nThe Tax Income: USD$ %.2f",taxIncome);
 			
 			}else if(income >= 3000.00 && income <=4500.00) 
-				{ //80.00 + tax income of 0.18 over entered income
+				{ //80.00 + tax income of 0.18 over(multiply) entered income
 					taxIncome = (1000.00 * 0.08) + (income - 3000.00) * 0.18;   
-					System.out.printf("The Tax Income is: USD$ %.2f .",taxIncome);
+					System.out.printf("%nThe Tax Income: USD$ %.2f",taxIncome);
 				
 				} else 
-					{
-						taxIncome = (1500.00 * 0.18) + (income - 4500.00) * 0.28;   
-						System.out.printf("The Tax Income is: USD$ %.2f .",taxIncome);
+					{//80.00 + 270.00 + tax income of 0.28 over(multiply) entered income
+						taxIncome = (1000.00 * 0.08) + (1500.00 * 0.18) + (income - 4500.00) * 0.28;   
+						System.out.printf("%nThe Tax Income: USD$ %.2f",taxIncome);
 					}
 		
 		
 		reader.close();		
+		
+		
 		
 		
 	}
