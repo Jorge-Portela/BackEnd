@@ -22,7 +22,7 @@ public class Main {
 		int fuelType,alcoholFuel=0,gasolineFuel=0,dieselFuel=0,sum = 0;
 		
 		System.out.println("Fuel Types: \n1 - Alcohol \n2 - Gasoline \n3 - Diesel \n4 - End Process");
-		
+				
 		
 		System.out.print("\nEnter the Fuel type: ");
 		fuelType=reader.nextInt();
@@ -52,6 +52,8 @@ public class Main {
 		System.out.println("\nAlcohol: "+alcoholFuel);
 		System.out.println("Gasoline: "+gasolineFuel);
 		System.out.println("Diesel: "+dieselFuel);
+		
+		reader.close();
 		
 		
 		
