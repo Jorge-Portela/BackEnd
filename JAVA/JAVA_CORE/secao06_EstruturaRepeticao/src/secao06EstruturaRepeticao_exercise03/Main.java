@@ -15,25 +15,24 @@ public class Main {
 		 * mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada
 		 * tipo de combustível, conforme exemplo.
 		 */
-		
+
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 
-		int fuelType,alcoholFuel=0,gasolineFuel=0,dieselFuel=0,sum = 0;
-		
+		int fuelType, alcoholFuel = 0, gasolineFuel = 0, dieselFuel = 0, sum = 0;
+
 		System.out.println("Fuel Types: \n1 - Alcohol \n2 - Gasoline \n3 - Diesel \n4 - End Process");
-				
-		
+
 		System.out.print("\nEnter the Fuel type: ");
-		fuelType=reader.nextInt();
-		
-		while(fuelType != 4) {
-			switch(fuelType) {
+		fuelType = reader.nextInt();
+
+		while (fuelType != 4) {
+			switch (fuelType) {
 			case 1:
-				alcoholFuel += 1 ;
+				alcoholFuel += 1;
 				break;
 			case 2:
-				gasolineFuel +=1;
+				gasolineFuel += 1;
 				break;
 			case 3:
 				dieselFuel += 1;
@@ -41,24 +40,20 @@ public class Main {
 			default:
 				System.out.println("INVALID COD. PLEASE ENTER A VALID ONE.");
 				break;
-				
+
 			}
 			System.out.print("\nEnter the Fuel type: ");
-			fuelType=reader.nextInt();
-			
+			fuelType = reader.nextInt();
+
 		}
-		
+
 		System.out.println("\nQuantity of Fuel Entered:");
-		System.out.println("\nAlcohol: "+alcoholFuel);
-		System.out.println("Gasoline: "+gasolineFuel);
-		System.out.println("Diesel: "+dieselFuel);
-		
+		System.out.println("\nAlcohol: " + alcoholFuel);
+		System.out.println("Gasoline: " + gasolineFuel);
+		System.out.println("Diesel: " + dieselFuel);
+
 		reader.close();
-		
-		
-		
-		
-		
+
 	}
 
 }
