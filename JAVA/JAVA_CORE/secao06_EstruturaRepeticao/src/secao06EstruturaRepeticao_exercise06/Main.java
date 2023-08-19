@@ -34,9 +34,22 @@ public class Main {
 		
 		System.out.println("\nEND THE PROCESS.");
 		
-		
-		
+		reader.close();
 		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
