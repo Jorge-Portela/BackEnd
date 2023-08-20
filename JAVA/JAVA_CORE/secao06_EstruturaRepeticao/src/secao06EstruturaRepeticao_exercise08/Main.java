@@ -13,21 +13,36 @@ public class Main {
 		
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
-		
-		int valueOfN,factorial=0;
+
+		//Refactored 
+		int valueOfN,factorial = 1;
 		
 		System.out.print("Enter the value: ");
 		valueOfN = reader.nextInt();
 		
-		for(int i = valueOfN; i >1;i--) {
-			valueOfN = valueOfN * (i-1);
-			factorial = valueOfN;
+		for(int i = 1; i <= valueOfN;i++) {
+			factorial *= i;
 			
 		}
 		
 		System.out.println("Factorial: "+factorial);
-		
 		reader.close();
+		
+		
+	    /*  Legacy:
+		 *
+		 *		int valueOfN,factorial=0;
+		 *		
+		 *		System.out.print("Enter the value: ");
+		 *		valueOfN = reader.nextInt();
+		 *		
+		 * 		for(int i = valueOfN; i >1;i--) {
+		 *			valueOfN = valueOfN * (i-1);
+		 * 			factorial = valueOfN;
+		 *			
+		 *		}
+		 */		
+		
 		
 	}
 
