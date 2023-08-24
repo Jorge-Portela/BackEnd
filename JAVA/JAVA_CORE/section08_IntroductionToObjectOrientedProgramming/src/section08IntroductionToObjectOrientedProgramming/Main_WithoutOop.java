@@ -3,7 +3,10 @@ package section08IntroductionToObjectOrientedProgramming;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main_WithoutOOP {
+
+
+
+public class Main_WithoutOop {
 	public static void main(String[] args) {
 		/*
 		 * Fazer um programa para ler as medidas dos lados de dois triângulos X e Y
@@ -47,6 +50,8 @@ public class Main_WithoutOOP {
 		} else {
 			System.out.println("The Largest Area: EQUALS");
 		}
+		
+		reader.close();
 
 	}
 
