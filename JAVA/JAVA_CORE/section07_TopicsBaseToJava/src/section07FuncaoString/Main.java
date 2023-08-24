@@ -1,4 +1,4 @@
-package secao07FuncaoString;
+package section07FuncaoString;
 
 public class Main {
 	public static void main(String[] args) {

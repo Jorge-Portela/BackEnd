@@ -1,4 +1,4 @@
-package secao07FuncaoStringVector;
+package section07FuncaoStringVector;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package secao07Funcao;
+package section07Funcao;
 
 import java.util.Scanner;
 
