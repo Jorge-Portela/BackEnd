@@ -30,24 +30,20 @@ public class Main_WithOop {
 		x.a = reader.nextDouble();
 		x.b = reader.nextDouble();
 		x.c = reader.nextDouble();
-
-		double pX = (x.a + x.b + x.c) / 2;
-		double areaX = Math.sqrt(pX * (pX - x.a) * (pX - x.b) * (pX - x.c));
-
 		System.out.println("Enter the measures of triangle Y: ");
 		y.a = reader.nextDouble();
 		y.b = reader.nextDouble();
 		y.c = reader.nextDouble();
 
-		double pY = (y.a + y.b + y.c) / 2;
-		double areaY = Math.sqrt(pY * (pY - y.a) * (pY - y.b) * (pY - y.c));
+		double areaX = x.area();
+		double areaY = y.area();
 
 		System.out.printf("Area of Triangle X: %.4f%n", areaX);
 		System.out.printf("Area of Triangle Y: %.4f%n", areaY);
 
-		if (pX < pY) {
+		if (areaX < areaY) {
 			System.out.println("The Largest Area: Y");
-		} else if (pX > pY) {
+		} else if (areaX > areaY) {
 			System.out.println("The Largest Area: X");
 		} else {
 			System.out.println("The Largest Area: EQUALS");
