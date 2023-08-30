@@ -11,6 +11,12 @@ public class Program {
 		 * de um retângulo. Em seguida, mostrar na tela o valor de 
 		 * sua área, perímetro e diagonal. Usar uma classe como 
 		 * mostrado no projeto ao lado.
+		 * 
+		 * Write a program to read the width and height values
+		 * of a rectangle. Then show on the screen the value of
+		 * its area, perimeter and diagonal. Use a class like
+		 * shown in the project opposite.
+		 * 
 		 */
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
@@ -21,9 +27,7 @@ public class Program {
 		rectangle.height = reader.nextDouble();
 		
 		System.out.println();
-		System.out.printf("\nAREA = %.2f", rectangle.area(rectangle.width, rectangle.height));
-		System.out.printf("\nPERIMENTER = %.2f",rectangle.perimeter(rectangle.width, rectangle.height));
-		System.out.printf("\nDIAGONAL = %.2f",rectangle.diagonal(rectangle.width, rectangle.height));
+		System.out.println(rectangle);
 	
 		reader.close();
 	
