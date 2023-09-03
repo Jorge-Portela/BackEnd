@@ -16,8 +16,8 @@ public class Program {
 		 * of a rectangle. Then show on the screen the value of
 		 * its area, perimeter and diagonal. Use a class like
 		 * shown in the project opposite.
-		 * 
 		 */
+		
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 		
@@ -26,7 +26,7 @@ public class Program {
 		rectangle.width = reader.nextDouble();
 		rectangle.height = reader.nextDouble();
 		
-		System.out.println();
+		
 		System.out.println(rectangle);
 	
 		reader.close();
