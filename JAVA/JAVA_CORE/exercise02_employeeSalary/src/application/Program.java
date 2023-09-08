@@ -41,7 +41,7 @@ public class Program {
 		
 		System.out.print("\nEmployee: ");
 		System.out.print(employeeSalary);
-		System.out.print( employeeSalary.isNetSalary( employeeSalary.grossSalary, employeeSalary.tax));
+
 		
 		System.out.printf("\nWich percentage to increase salary? ");
 		employeeSalary.percentage= reader.nextDouble();

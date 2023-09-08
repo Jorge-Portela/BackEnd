@@ -19,18 +19,18 @@ public class EmployeeSalary {
 		public double tax;
 		public double percentage;
 		
-		public double isNetSalary(double grossSalary, double tax) {
+		public double isNetSalary() {
 			return this.grossSalary - this.tax;
 		}
 		
 		public void increaseSalary(double percentage) {
-			this.grossSalary += (grossSalary  / percentage) + isNetSalary(grossSalary,tax);
+			this.grossSalary += (grossSalary  * percentage) / 100;
 		}
 		
 		public String toString() {
 			return  this.name 
-				  + ", $ "
-				  + String.format(".2f", isNetSalary(this.grossSalary, this.tax));
+				  + ", Net Salary: $ "
+				  + String.format("%.2f", isNetSalary());
 		}
 
 }
