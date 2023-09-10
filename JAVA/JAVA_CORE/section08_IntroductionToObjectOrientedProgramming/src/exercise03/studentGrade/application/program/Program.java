@@ -1,9 +1,9 @@
-package exercise03_studentGrade.application;
+package exercise03.studentGrade.application.program;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import exercise03_studentGrade.application.entities.Student;
+import exercise03.studentGrade.application.entities.Student;
 
 public class Program {
 

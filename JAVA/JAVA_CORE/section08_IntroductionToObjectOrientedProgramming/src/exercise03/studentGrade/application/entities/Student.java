@@ -1,4 +1,4 @@
-package exercise03_studentGrade.application.entities;
+package exercise03.studentGrade.application.entities;
 
 public class Student {
 	public String studentName;
