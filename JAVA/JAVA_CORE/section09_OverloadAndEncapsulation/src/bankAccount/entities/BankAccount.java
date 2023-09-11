@@ -1,11 +1,15 @@
 package bankAccount.entities;
 
+import java.util.Locale;
+
 public class BankAccount {
 
 	private String accountHolder;
 	private int accountNumber;
-	private double depositInitial;
+	private double accountValue;
 
+	
+	
 	public BankAccount() {
 	}
 
@@ -15,21 +19,24 @@ public class BankAccount {
 
 	}
 
-	public void setDepositInitial(String initDepositValidation, double depositInitial) {
 
-		System.out.print("Is there na initial deposit (y/n)?: ");
 
-		initDepositValidation.toUpperCase();
-
-		if (initDepositValidation.equalsIgnoreCase("Y")) {
-
-		} else if (initDepositValidation.equalsIgnoreCase("N")) {
-
-		}
+	public void setDepositInitial(double accountValue) {
+		this.accountValue += accountValue;
 	}
-
-	public double setDepositInitial() {
-		return this.depositInitial;
+	
+	
+	public double getDepositInitial() {
+		return this.accountValue;
+	}
+	
+	public String toString() {
+		return  "Account data: "
+				+"Account: "+this.accountNumber
+				+", "
+				+"Holder: "+this.accountHolder
+				+", "
+				+String.format("Balance: $ %.2f",getDepositInitial());
 	}
 
 }
