@@ -1,4 +1,4 @@
-package entities;
+package employeeSalary.entities;
 
 public class EmployeeSalary {
 	/*

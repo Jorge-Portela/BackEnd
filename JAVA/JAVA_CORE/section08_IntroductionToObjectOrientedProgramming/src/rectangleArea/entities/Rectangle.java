@@ -1,4 +1,4 @@
-package entities;
+package rectangleArea.entities;
 
 public class Rectangle {
 	/*

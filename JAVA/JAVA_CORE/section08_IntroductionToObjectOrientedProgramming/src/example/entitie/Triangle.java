@@ -1,4 +1,4 @@
-package entities;
+package example.entitie;
 
 public class Triangle {
 	public double a;

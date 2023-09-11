@@ -1,12 +1,11 @@
-package section08IntroductionToObjectOrientedProgramming;
+package example.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
+import example.entitie.Triangle;
 
-
-
-public class Main_WithoutOop {
+public class Main_WithOop {
 	public static void main(String[] args) {
 		/*
 		 * Fazer um programa para ler as medidas dos lados de dois triângulos X e Y
@@ -22,30 +21,29 @@ public class Main_WithoutOop {
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 
-		double xA, xB, xC, yA, yB, yC;
-
+		Triangle x,y;
+		x = new Triangle();
+		y = new Triangle();
+		
+		
 		System.out.println("Enter the measures of triangle X: ");
-		xA = reader.nextDouble();
-		xB = reader.nextDouble();
-		xC = reader.nextDouble();
-
-		double pX = (xA + xB + xC) / 2;
-		double areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
-
+		x.a = reader.nextDouble();
+		x.b = reader.nextDouble();
+		x.c = reader.nextDouble();
 		System.out.println("Enter the measures of triangle Y: ");
-		yA = reader.nextDouble();
-		yB = reader.nextDouble();
-		yC = reader.nextDouble();
+		y.a = reader.nextDouble();
+		y.b = reader.nextDouble();
+		y.c = reader.nextDouble();
 
-		double pY = (yA + yB + yC) / 2;
-		double areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
+		double areaX = x.area();
+		double areaY = y.area();
 
 		System.out.printf("Area of Triangle X: %.4f%n", areaX);
 		System.out.printf("Area of Triangle Y: %.4f%n", areaY);
 
-		if (pX < pY) {
+		if (areaX < areaY) {
 			System.out.println("The Largest Area: Y");
-		} else if (pX > pY) {
+		} else if (areaX > areaY) {
 			System.out.println("The Largest Area: X");
 		} else {
 			System.out.println("The Largest Area: EQUALS");
@@ -54,5 +52,5 @@ public class Main_WithoutOop {
 		reader.close();
 
 	}
-
+	
 }

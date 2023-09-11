@@ -1,11 +1,12 @@
-package section08IntroductionToObjectOrientedProgramming;
+package example.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
 
-public class Main_WithOop {
+
+
+public class Main_WithoutOop {
 	public static void main(String[] args) {
 		/*
 		 * Fazer um programa para ler as medidas dos lados de dois triângulos X e Y
@@ -21,29 +22,30 @@ public class Main_WithOop {
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 
-		Triangle x,y;
-		x = new Triangle();
-		y = new Triangle();
-		
-		
-		System.out.println("Enter the measures of triangle X: ");
-		x.a = reader.nextDouble();
-		x.b = reader.nextDouble();
-		x.c = reader.nextDouble();
-		System.out.println("Enter the measures of triangle Y: ");
-		y.a = reader.nextDouble();
-		y.b = reader.nextDouble();
-		y.c = reader.nextDouble();
+		double xA, xB, xC, yA, yB, yC;
 
-		double areaX = x.area();
-		double areaY = y.area();
+		System.out.println("Enter the measures of triangle X: ");
+		xA = reader.nextDouble();
+		xB = reader.nextDouble();
+		xC = reader.nextDouble();
+
+		double pX = (xA + xB + xC) / 2;
+		double areaX = Math.sqrt(pX * (pX - xA) * (pX - xB) * (pX - xC));
+
+		System.out.println("Enter the measures of triangle Y: ");
+		yA = reader.nextDouble();
+		yB = reader.nextDouble();
+		yC = reader.nextDouble();
+
+		double pY = (yA + yB + yC) / 2;
+		double areaY = Math.sqrt(pY * (pY - yA) * (pY - yB) * (pY - yC));
 
 		System.out.printf("Area of Triangle X: %.4f%n", areaX);
 		System.out.printf("Area of Triangle Y: %.4f%n", areaY);
 
-		if (areaX < areaY) {
+		if (pX < pY) {
 			System.out.println("The Largest Area: Y");
-		} else if (areaX > areaY) {
+		} else if (pX > pY) {
 			System.out.println("The Largest Area: X");
 		} else {
 			System.out.println("The Largest Area: EQUALS");
@@ -52,5 +54,5 @@ public class Main_WithOop {
 		reader.close();
 
 	}
-	
+
 }

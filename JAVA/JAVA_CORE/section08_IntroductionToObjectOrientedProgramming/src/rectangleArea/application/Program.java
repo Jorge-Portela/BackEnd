@@ -1,8 +1,9 @@
-package application;
+package rectangleArea.application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Rectangle;
+
+import rectangleArea.entities.Rectangle;
 
 public class Program {
 	public static void main(String[] args) {
