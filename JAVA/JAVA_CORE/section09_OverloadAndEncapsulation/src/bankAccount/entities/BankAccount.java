@@ -21,12 +21,24 @@ public class BankAccount {
 
 
 
-	public void setDepositInitial(double accountValue) {
+	
+	
+	
+	public void setDepositAccount(double accountValue) {
 		this.accountValue += accountValue;
 	}
 	
+	public void setWithdrawAccount(double accountValue) {
+		this.accountValue -= accountValue;
+	}
 	
-	public double getDepositInitial() {
+	
+	
+	public double getDepositAccount() {
+		return this.accountValue;
+	}
+	
+	public double getWithdrawAccount() {
 		return this.accountValue;
 	}
 	
@@ -36,7 +48,7 @@ public class BankAccount {
 				+", "
 				+"Holder: "+this.accountHolder
 				+", "
-				+String.format("Balance: $ %.2f",getDepositInitial());
+				+String.format("Balance: $ %.2f",getDepositAccount());
 	}
 
 }
