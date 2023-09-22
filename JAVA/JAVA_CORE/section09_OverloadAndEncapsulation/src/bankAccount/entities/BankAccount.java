@@ -1,6 +1,5 @@
 package bankAccount.entities;
 
-import java.util.Locale;
 
 public class BankAccount {
 
@@ -10,8 +9,7 @@ public class BankAccount {
 
 	
 	
-	public BankAccount() {
-	}
+	
 
 	public BankAccount(int accountNumber, String accountHolder) {
 		this.accountNumber = accountNumber;
@@ -39,12 +37,20 @@ public class BankAccount {
 	}
 	
 	public double getWithdrawAccount() {
-		return this.accountValue;
+		return this.accountValue -= 5 ;
+		
+	}
+	
+	public String getWithdrawAccountData() {
+		return  "Account: "+this.accountNumber
+				+", "
+				+"Holder: "+this.accountHolder
+				+", "
+				+String.format("Balance: $ %.2f",getWithdrawAccount());
 	}
 	
 	public String toString() {
-		return  "Account data: "
-				+"Account: "+this.accountNumber
+		return  "Account: "+this.accountNumber
 				+", "
 				+"Holder: "+this.accountHolder
 				+", "

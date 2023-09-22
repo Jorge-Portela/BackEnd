@@ -18,6 +18,8 @@ public class Program {
 
 		reader.nextLine();
 		
+		
+		
 		System.out.print("Enter account holder: ");
 		String AccHolder = reader.nextLine();
 
@@ -51,7 +53,7 @@ public class Program {
 		bankAccount.setWithdrawAccount(inputWithdraw);
 
 		System.out.println("\nUpdate Account Data: ");
-		System.out.println(bankAccount);
+		System.out.println(bankAccount.getWithdrawAccountData());
 		
 		
 		
