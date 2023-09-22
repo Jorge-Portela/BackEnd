@@ -17,7 +17,7 @@ public class TesteConta {
 		int pfAccountNumber = reader.nextInt();
 		
 		PessoaFisica pf1 = new PessoaFisica(pfAccountNumber, pfAccountName,pfAccountCpf);
-
+ 
 		pf1.setDepositAccount(reader.nextDouble());
 		
 		reader.close();
