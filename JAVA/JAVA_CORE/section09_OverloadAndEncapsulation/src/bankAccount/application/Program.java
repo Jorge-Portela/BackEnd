@@ -55,18 +55,9 @@ public class Program {
 		System.out.println("\nUpdate Account Data: ");
 		System.out.println(bankAccount.getWithdrawAccountData());
 		
-		
-		
-		
+				
 		reader.close();	
-		
-			
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
