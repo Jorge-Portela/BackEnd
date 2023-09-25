@@ -11,14 +11,12 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner reader = new Scanner(System.in);
 		
-		
 
 		System.out.print("Enter account number: ");
 		int AccNumber = reader.nextInt();
 
 		reader.nextLine();
-		
-		
+			
 		
 		System.out.print("Enter account holder: ");
 		String AccHolder = reader.nextLine();
@@ -57,7 +55,6 @@ public class Program {
 		
 				
 		reader.close();	
-
 	}
 
 }
