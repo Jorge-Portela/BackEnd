@@ -8,7 +8,7 @@ public class BankAccount {
 	private double accountValue;
 
 	
-	
+	public BankAccount() {}
 	
 
 	public BankAccount(int accountNumber, String accountHolder) {
