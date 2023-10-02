@@ -4,6 +4,8 @@ public class PessoaFisica extends BankAccount {
 	private String cpf;
 	
 	
+	public PessoaFisica() {}
+	
 	public PessoaFisica(int accountNumber, String accountHolder,String cpf) {
 		super(accountNumber,accountHolder) ;
 		this.cpf = cpf;
@@ -20,5 +22,4 @@ public class PessoaFisica extends BankAccount {
 	}
 
 
-	
 }
