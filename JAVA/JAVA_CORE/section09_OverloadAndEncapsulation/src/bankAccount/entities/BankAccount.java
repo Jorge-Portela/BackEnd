@@ -5,7 +5,7 @@ public class BankAccount {
 
 	private String accountHolder;
 	private int accountNumber;
-	private double accountValue;
+	private double accountValue = 0;
 
 	
 	public BankAccount() {}
@@ -18,9 +18,6 @@ public class BankAccount {
 	}
 
 
-
-	
-	
 	
 	public void setDepositAccount(double accountValue) {
 		this.accountValue += accountValue;
