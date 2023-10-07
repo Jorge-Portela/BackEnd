@@ -5,7 +5,7 @@ public class BankAccount {
 
 	private String accountHolder;
 	private int accountNumber;
-	private double accountValue = 1000;
+	private double accountValue = 11000.00;
 
 	
 	public BankAccount() {}
