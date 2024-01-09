@@ -33,7 +33,7 @@ public class Program {
 			bankAccount.setDepositAccount(inputValue);
 			
 		}else if(InitDeposit.equalsIgnoreCase("N")) {
-			
+			return;
 		}
 		
 		System.out.println(bankAccount);
