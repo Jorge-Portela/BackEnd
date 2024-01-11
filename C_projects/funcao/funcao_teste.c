@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    printf("Bem vindo \nao\nC!\n");
-    int a, b;
-    float media;
+    
+    int a = 45, b = 280, c = 30, x;
+    
 
-    scanf("%d %d", &a, &b);
-    media = (float)(a + b) / 2;
 
-    printf("A media de %d e %d eh igual a: %.2f", a, b, media);
+    x = (45*280)/c;
+
+    printf("x =  %i",x);
 
     return 0;
 }
