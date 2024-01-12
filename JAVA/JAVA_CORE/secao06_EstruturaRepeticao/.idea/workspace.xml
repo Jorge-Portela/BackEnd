@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed60b94f-84f3-407f-9fbe-29fc071bfcb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../section08_IntroductionToObjectOrientedProgramming/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section08_IntroductionToObjectOrientedProgramming/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section08_IntroductionToObjectOrientedProgramming/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section07_TopicsBaseToJava/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section07_TopicsBaseToJava/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section07_TopicsBaseToJava/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section07_TopicsBaseToJava/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/color-definitions-fix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.buildship.ui-1231266899.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.egit.ui-1849137576.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.epp.mpc.ui.css--1027399938.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.jdt.ui-326703266.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/splash-fix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/ccw.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.axmor.eclipse.typescript.editor.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.dubture.twig.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.codetogether.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.sqlexplorer.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.eclipsecolortheme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.rustdt.ide.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.google.eclipse.protobuf.Protobuf.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.googlecode.goclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.palantir.typescript.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.powerflasher.fdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.module.dsl.Module.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.pp.dsl.PP.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.js.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.xml.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.wolfram.eclipse.MEET.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.base.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.r.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/eclihx.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/jp.gr.java_conf.ussiy.app.propedit.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/jsonedit-core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.eclipsefp.haskell.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sourceforge.texlipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.vtst.ow.eclipse.less.Less.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.apache.ivyde.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cfeclipse.cfml.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.chromium.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cloudsmith.geppetto.pp.dsl.PP.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.dadacoalition.yedit.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.angularjs.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.dsf.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.make.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.ruby.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.tcl.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.CSS.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.apt.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.wikitext.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.dtd.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xsl.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtend.core.Xtend.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.erlide.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.ide.eclipse.freemarker.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.gradle.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.jade.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.play2.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sourceforge.jsonedit-core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.imports.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sweetlemonade.eclipse.json.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.core.runtime/.settings/winterwell.markdown.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/113397728.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1149135754.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1155860825.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/116965696.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1249501862.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1462958048.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1769499843.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1812782816.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1836676085.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/1932468020.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2024652015.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/215309039.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2198869057.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2228503107.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2266762188.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2318295048.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2318618664.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2414333443.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2490669645.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2499536943.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/250000393.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2526370370.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2560244090.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2578399011.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2623308607.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2627069426.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2648513618.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/268336758.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2687576643.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2735373265.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2742717994.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2803913220.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/2808336337.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3044666404.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3066187531.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3085296243.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3125468194.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3232736581.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3285921093.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3317394204.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3363206018.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3384098296.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3395255445.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3504457895.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3551886781.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/355834823.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3737185259.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3740478861.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/375468165.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3780618362.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3830590515.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/3882907996.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4018664028.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4102846478.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4121485378.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/412508184.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4147823958.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4228176934.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/4257015134.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/475171367.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/591210104.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/713468808.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/878895201.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/983976247.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.linuxtools.docker.core/dockerconnections.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/src/main/java/com/generation/blogpessoal/BlogpessoalApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring-Boot/blogpessoal/src/test/java/com/generation/blogpessoal/BlogpessoalApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2anY3GWd53Aus618fHZXy6VSqib" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section07_TopicsBaseToJava"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed60b94f-84f3-407f-9fbe-29fc071bfcb4" name="Changes" comment="" />
+      <created>1704955608262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704955608262</updated>
+    </task>
+    <servers />
+  </component>
+</project>

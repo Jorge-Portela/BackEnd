@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<dirs>
-    <entry loc="/opt/sts-4.20.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre" stamp="1694192880512"/>
-    <entry loc="/home/jorge-portela/.sdkman/candidates/java/11.0.20-tem" stamp="1689717031000"/>
-    <entry loc="/opt/sts-4.20.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047" stamp="1694192880514"/>
-    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1696106083762"/>
-</dirs>
