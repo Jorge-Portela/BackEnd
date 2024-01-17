@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module mini_StockManagement {
-}
