@@ -30,28 +30,36 @@ public class Program {
         System.out.println("Enter Student Name: ");
         student1.name = reader.nextLine();
 
-        System.out.println("Enter First Grade");
+
+        System.out.println("Enter First Grade (MAX 30 POINT): ");
         student1.firstGrade = reader.nextDouble();
+        while(student1.firstGrade < 0 || student1.firstGrade > 30){
+            System.out.print("Please,  VALUE MIN: 0 AND MAX 30 POINTS: ");
+            student1.firstGrade = reader.nextDouble();
+        }
+
 
         System.out.println("Enter Second Grade");
         student1.secondGrade = reader.nextDouble();
+        while(student1.secondGrade < 0 || student1.secondGrade > 35){
+            System.out.print("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
+            student1.secondGrade = reader.nextDouble();
+        }
 
         System.out.println("Enter Third Grade");
         student1.thirdGrade = reader.nextDouble();
-
-        if (student1.calculateFinalGrade() >= 60) {
-            System.out.println("PASS ");
-
-
-        } else {
-            double missingToPass = 60 - student1.calculateFinalGrade();
-            System.out.println("FAILED " + "Missing: " + String.format("%.2f",missingToPass) + " POINTS");
+        while(student1.thirdGrade < 0 || student1.thirdGrade > 35){
+            System.out.print("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
+            student1.thirdGrade = reader.nextDouble();
         }
+
+
+        student1.validateGrade();
 
 
         System.out.println(student1);
 
+        reader.close();
     }
-
 
 }

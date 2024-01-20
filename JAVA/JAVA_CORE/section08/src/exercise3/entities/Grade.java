@@ -9,17 +9,23 @@ public class Grade {
 
     public double calculateFinalGrade(){
         double totalGrade;
-        return totalGrade = (firstGrade + secondGrade + thirdGrade);
+        return totalGrade = (this.firstGrade + this.secondGrade + this.thirdGrade);
     }
 
-
+    public void validateGrade(){
+        if(calculateFinalGrade() > 60){
+            System.out.println(" PASS ");
+        }else{
+            double missingPoints = 60 - calculateFinalGrade();
+            System.out.println(" FAIL | MISSING  POINTS"+ missingPoints+ "TO APPROVAL ");
+        }
+    }
 
 
     public String toString(){
         return this.name
                 + " FINAL GRADE = "
-                + calculateFinalGrade()
-                +" ";
+                + calculateFinalGrade();
 
     }
 
