@@ -6,6 +6,7 @@ public class RectangleArea {
     public double height;
 
     public double isArea(double width, double height){
+
         return width * height;
     }
 
@@ -15,6 +16,7 @@ public class RectangleArea {
     }
 
     public double isDiagonal(double width, double height){
+
         return Math.sqrt((Math.pow(width,2)+Math.pow(height,2)));
     }
 
