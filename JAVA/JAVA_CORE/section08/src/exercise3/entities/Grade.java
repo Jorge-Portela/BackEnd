@@ -13,14 +13,14 @@ public class Grade {
     }
 
     public void validateGrade(){
+        System.out.print("RESULT: ");
         if(calculateFinalGrade() > 60){
             System.out.println(" PASS ");
         }else{
             double missingPoints = 60 - calculateFinalGrade();
-            System.out.println(" FAIL | MISSING  POINTS"+ missingPoints+ "TO APPROVAL ");
+            System.out.println(" FAIL | MISSING: "+ missingPoints+ " POINTS TO APPROVAL ");
         }
     }
-
 
     public String toString(){
         return this.name
@@ -28,5 +28,4 @@ public class Grade {
                 + calculateFinalGrade();
 
     }
-
 }

@@ -27,37 +27,34 @@ public class Program {
 
         Grade student1 = new Grade();
 
-        System.out.println("Enter Student Name: ");
+        System.out.print("Enter student name: ");
         student1.name = reader.nextLine();
 
-
-        System.out.println("Enter First Grade (MAX 30 POINT): ");
+        System.out.println("\nEnter First Grade (MAX 30 POINT): ");
         student1.firstGrade = reader.nextDouble();
         while(student1.firstGrade < 0 || student1.firstGrade > 30){
-            System.out.print("Please,  VALUE MIN: 0 AND MAX 30 POINTS: ");
+            System.out.println("Please,  VALUE MIN: 0 AND MAX 30 POINTS: ");
             student1.firstGrade = reader.nextDouble();
         }
 
 
-        System.out.println("Enter Second Grade");
+        System.out.println("\nEnter Second Grade");
         student1.secondGrade = reader.nextDouble();
         while(student1.secondGrade < 0 || student1.secondGrade > 35){
-            System.out.print("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
+            System.out.println("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
             student1.secondGrade = reader.nextDouble();
         }
 
-        System.out.println("Enter Third Grade");
+        System.out.println("\nEnter Third Grade");
         student1.thirdGrade = reader.nextDouble();
         while(student1.thirdGrade < 0 || student1.thirdGrade > 35){
-            System.out.print("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
+            System.out.println("Please,  VALUE MIN: 0 AND MAX 35 POINTS: ");
             student1.thirdGrade = reader.nextDouble();
         }
 
+        System.out.println("\n"+student1);
 
         student1.validateGrade();
-
-
-        System.out.println(student1);
 
         reader.close();
     }
