@@ -29,8 +29,8 @@ public class Program {
 
         double convertor = CurrencyConverter.convetorDollar(dollarPrice,dollarBought);
 
-        System.out.printf("Amount to be paid in reais = "
-                + "%.2f", convertor);
+        System.out.println("Amount to be paid in reais = $ "
+                + String.format("%.2f  ", convertor));
 
     }
 
