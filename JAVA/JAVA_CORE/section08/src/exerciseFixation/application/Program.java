@@ -29,7 +29,7 @@ public class Program {
 
         double convertor = CurrencyConverter.convetorDollar(dollarPrice,dollarBought);
 
-        System.out.println("Amount to be paid in reais = $ "
+        System.out.println("Amount to be paid in BRL(REAL) = $ "
                 + String.format("%.2f  ", convertor));
 
     }
