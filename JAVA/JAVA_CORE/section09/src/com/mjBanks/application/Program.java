@@ -27,7 +27,6 @@ public class Program {
         String responseInitialDeposit = readerStr.nextLine();
 
 
-
         double initialDeposit;
         if(responseInitialDeposit.equalsIgnoreCase("y") ){
             System.out.print("\nEnter initial deposit value: ");
@@ -37,13 +36,23 @@ public class Program {
         }
 
 
-
-
-
        Account account1 = new Account(accountNumber,holder,initialDeposit);
 
-       System.out.println("Account data: ");
+       System.out.println("\nAccount data: ");
        System.out.println(account1);
+
+        System.out.print("\nEnter a deposit value: ");
+        account1.isDeposit(readerNumb.nextDouble());
+
+        System.out.println("\nUpdate account data:");
+        System.out.println(account1);
+
+        System.out.print("Enter a withdraw value: ");
+        account1.isWithdraw(readerNumb.nextDouble());
+
+        System.out.println("Update account data: ");
+        System.out.println(account1);
+
 
 
 

@@ -42,8 +42,8 @@ public class Account {
     }
 
     //There is a tax of $5.00 over each withdraw(Business Rules)
-    public double isWithdraw(double withdraw){
-        return this.balance -= (withdraw + 5.00);
+    public void isWithdraw(double withdraw){
+         this.balance -= (withdraw + 5.00);
     }
 
     public String toString(){
