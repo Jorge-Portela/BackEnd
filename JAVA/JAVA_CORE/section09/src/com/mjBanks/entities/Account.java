@@ -6,11 +6,14 @@ public class Account {
     private  double initialDeposit;
     private double balance;
 
+    public Account(){}
+
     public Account(int accountNumber, String holder, double initialDeposit){
         this.accountNumber = accountNumber;
-        this.holder = holder;
-
+        setHolder(holder);
+        isDeposit(initialDeposit);
     }
+
 
     //Enter the Getters and Setters
 
@@ -31,7 +34,7 @@ public class Account {
 
 
     public double showBalance(){
-        return balance
+        return balance;
     }
 
     public void isDeposit(double deposit){
@@ -41,6 +44,15 @@ public class Account {
     //There is a tax of $5.00 over each withdraw(Business Rules)
     public double isWithdraw(double withdraw){
         return this.balance -= (withdraw + 5.00);
+    }
+
+    public String toString(){
+        return "Account: "
+                + getAccountNumber()
+                + ", Holder: "
+                + getHolder()
+                + ", Balance: $ "
+                + String.format("%.2f", showBalance());
     }
 
 }
