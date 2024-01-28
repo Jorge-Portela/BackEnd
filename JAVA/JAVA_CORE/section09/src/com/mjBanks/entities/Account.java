@@ -29,6 +29,11 @@ public class Account {
         this.holder = holder;
     }
 
+
+    public double showBalance(){
+        return balance
+    }
+
     public void isDeposit(double deposit){
         balance += deposit;
     }
