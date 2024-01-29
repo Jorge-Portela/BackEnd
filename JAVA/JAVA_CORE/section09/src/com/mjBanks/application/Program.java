@@ -2,9 +2,9 @@ package com.mjBanks.application;
 
 import com.mjBanks.entities.Account;
 
-
 import java.util.Locale;
 import java.util.Scanner;
+
 
 public class Program {
 
@@ -13,6 +13,8 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner readerStr = new Scanner(System.in);
         Scanner readerNumb = new Scanner(System.in);
+
+        Account account1;
 
         System.out.println("MJ BANK");
 
@@ -31,12 +33,12 @@ public class Program {
         if(responseInitialDeposit.equalsIgnoreCase("y") ){
             System.out.print("\nEnter initial deposit value: ");
             initialDeposit = readerNumb.nextDouble();
+            account1 = new Account(accountNumber,holder,initialDeposit);
         }else{
             initialDeposit =0;
+            account1 = new Account(accountNumber,holder);
         }
 
-
-       Account account1 = new Account(accountNumber,holder,initialDeposit);
 
        System.out.println("\nAccount data: ");
        System.out.println(account1);
