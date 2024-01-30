@@ -1,4 +1,4 @@
-package example01.application;
+package examples.example01.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -32,7 +32,6 @@ public class Program {
         }
 
         double sum = 0.0;
-
         for(int i=0; i< vector.length;i++){
             sum += vector[i];
         }
