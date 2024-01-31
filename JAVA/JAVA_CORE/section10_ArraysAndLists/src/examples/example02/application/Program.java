@@ -10,44 +10,48 @@ package examples.example02.application;
 * seguida, mostrar o preço médio dos produtos.
 * */
 
+import examples.example02.entities.Product;
+
 import java.util.Locale;
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
-        Scanner readerInt = new Scanner(System.in);
+        Scanner readerNumb = new Scanner(System.in);
         Scanner readerString = new Scanner(System.in);
-        Scanner readerDouble = new Scanner(System.in);
+        //Scanner readerDouble = new Scanner(System.in);
 
         System.out.print("\nEnter the quantity of product on the inputs: ");
-        int n = readerInt.nextInt();
+        int n = readerNumb.nextInt();
 
-        double[] vector = new double[n];
+        Product[] arrayProductPrice = new Product[n];
 
         int count = 1;
-        for(int i = 0; i<vector.length;i++){
+        for(int i = 0; i < arrayProductPrice.length; i++){
             System.out.println("\n*** INPUT "+ count+ " ***");
 
             System.out.print("Enter the Product name: ");
             String nameOfProduct = readerString.nextLine();
 
             System.out.print("Enter the Product Price: ");
-            vector[i] = readerDouble.nextDouble();
+            double priceOfProduct = readerNumb.nextDouble();
+
+            arrayProductPrice [i] = new Product(nameOfProduct,priceOfProduct);
 
             count++;
         }
 
-        double sum = 0;
-        for(int i = 0;i<vector.length;i++){
-            sum += vector[i];
+        double sum = 0.0;
+        for(int i = 0;i < arrayProductPrice.length;i++){
+            sum += arrayProductPrice[i].getPrice();
         }
 
         double average = sum/n;
 
         System.out.printf("\nAVERAGE PRODUCTS PRICE: $ %.2f",average);
 
-        readerInt.close();
+        readerNumb.close();
         readerString.close();
-        readerDouble.close();
+        //readerDouble.close();
     }
 }
