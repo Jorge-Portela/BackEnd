@@ -7,15 +7,12 @@ public class Hostel {
 
     public Hostel(){}
 
-    public Hostel(String name, String email, int room){
+    public Hostel(String name, String email){
         this.name = name;
         this.email = email;
-        this.room = room;
     }
 
-    public Hostel(int room){
-        this.room = room;
-    }
+
 
     public String getName(){
         return name;
@@ -33,13 +30,6 @@ public class Hostel {
         this.email = email;
     }
 
-    public int getRoom(){
-        return room;
-    }
-
-    public void getRoom(int room){
-        this.room = room;
-    }
 
 }
 

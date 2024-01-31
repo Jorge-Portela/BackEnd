@@ -12,6 +12,7 @@ public class Program {
         Scanner readerNumb = new Scanner(System.in);
 
         Hostel[] rooms = new Hostel[10];
+
         System.out.println("\n*** Hostel Vacancy System ***");
         System.out.print("\nHow many rooms will be rented ?: ");
         int numbOfStudents = readerNumb.nextInt();
@@ -26,19 +27,19 @@ public class Program {
             System.out.print("Room: ");
             int room = readerNumb.nextInt();
 
-            rooms[i] = new Hostel(name, email, room);
+            rooms[room] = new Hostel(name, email);
 
             countRooms++;
         }
 
         System.out.println("\nBusy rooms: ");
 
-        for (int i = 0; i < numbOfStudents; i++) {
-            System.out.println(rooms[i].getRoom()
-                    + ": "
-                    + rooms[i].getName()
-                    + ", "
-                    + rooms[i].getEmail());
+        for (int i = 0; i < 10; i++) {
+            if(rooms[i] != null){
+                System.out.println(i + ": " + rooms[i].getName()
+                        + ", "
+                        + rooms[i].getEmail());
+            }
         }
 
         readerString.close();
