@@ -19,7 +19,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner readerNumb = new Scanner(System.in);
         Scanner readerString = new Scanner(System.in);
-        //Scanner readerDouble = new Scanner(System.in);
+        
 
         System.out.print("\nEnter the quantity of product on the inputs: ");
         int n = readerNumb.nextInt();
@@ -52,6 +52,5 @@ public class Program {
 
         readerNumb.close();
         readerString.close();
-        //readerDouble.close();
     }
 }
