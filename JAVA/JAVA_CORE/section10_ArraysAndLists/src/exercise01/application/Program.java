@@ -28,6 +28,23 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
+         int[] integerNUmb = new int[10];
+         System.out.print("How many numbers will you enter: ");
+         int amountIntegerNumbs = reader.nextInt();
+
+         for(int i = 0; i < amountIntegerNumbs; i++){
+             System.out.print("Enter a number: ");
+             int inputNumber = reader.nextInt();
+             integerNUmb[i] = inputNumber;
+         }
+
+         System.out.println("NEGATIVES NUMBERS: ");
+
+         for(int i = 0; i < amountIntegerNumbs; i++){
+             if(integerNUmb[i] < 0){
+                 System.out.println(integerNUmb[i]);
+             }
+         }
 
 
         reader.close();
