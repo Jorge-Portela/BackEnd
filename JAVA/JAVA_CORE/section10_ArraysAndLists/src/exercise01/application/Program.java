@@ -1,5 +1,7 @@
 package exercise01.application;
 
+import exercise01.entities.NegativesNumbers;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -28,22 +30,21 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-         int[] integerNUmb = new int[10];
+         NegativesNumbers[] integerNumb = new NegativesNumbers[10];
          System.out.print("How many numbers will you enter: ");
          int amountIntegerNumbs = reader.nextInt();
 
-         for(int i = 0; i < amountIntegerNumbs; i++){
-             System.out.print("Enter a number: ");
-             int inputNumber = reader.nextInt();
-             integerNUmb[i] = inputNumber;
+        for(int i = 0; i < amountIntegerNumbs; i++){
+            System.out.print("Enter a number: ");
+            int inputNumber ;
+            integerNumb[i] = new NegativesNumbers(inputNumber = reader.nextInt());
          }
 
          System.out.println("NEGATIVES NUMBERS: ");
 
          for(int i = 0; i < amountIntegerNumbs; i++){
-             if(integerNUmb[i] < 0){
-                 System.out.println(integerNUmb[i]);
-             }
+            integerNumb[i].selectNegativesNumbers(integerNumb[i].getAmountIntegerNumbs());
+
          }
 
 
