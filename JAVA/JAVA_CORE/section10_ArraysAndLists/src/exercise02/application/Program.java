@@ -1,8 +1,9 @@
 package exercise02.application;
 
+import exercise02.entities.RealNumbers;
+
 import java.util.Locale;
 import java.util.Scanner;
-
 
 import static java.lang.Integer.parseInt;
 
@@ -25,31 +26,31 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        int amountNumbers;
-        double [] realNumbers;
+        RealNumbers [] realNumbers;
         System.out.print("How many numbers will you enter: ");
-        realNumbers = new double[ amountNumbers  =  reader.nextInt()];
+        int amountNumbers =  reader.nextInt();
+        realNumbers = new RealNumbers[amountNumbers];
 
 
-        for(int i = 0; i < amountNumbers; i++ ){
+        for(int i = 0; i < realNumbers.length; i++ ){
             System.out.print("Enter a number: ");
             double inputNumber = reader.nextDouble();
-            realNumbers[i] = inputNumber;
+            realNumbers[i] = new RealNumbers(inputNumber);
         }
 
         //Show the floated numbers inserted in array
         System.out.print("VALUES = ");
         for(int i = 0; i < amountNumbers; i++){
-            System.out.print(realNumbers[i] + "  ");
+            System.out.print(realNumbers[i].getInputNumber() + "  ");
         }
 
         double sum = 0;
         for(int i = 0; i < amountNumbers; i++){
-            sum += realNumbers[i];
+            sum += realNumbers[i].getInputNumber();
         }
         System.out.printf("\nSUM = %.2f", sum);
 
-        double average = sum/amountNumbers;
+        double average = sum/realNumbers.length;
         System.out.printf("\nAVERAGE = %.2f", average);
 
         reader.close();

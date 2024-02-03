@@ -1,7 +1,7 @@
 package exercise01.entities;
 
 public class NegativesNumbers {
-    int amountIntegerNumbs;
+    private int amountIntegerNumbs;
 
     public NegativesNumbers(int amountIntegerNumbs){
         this.amountIntegerNumbs = amountIntegerNumbs;
@@ -18,9 +18,8 @@ public class NegativesNumbers {
         return amountIntegerNumbs;
     }
 
-    public void setAmountIntegerNumbs(int amountIntegerNumbs) {
-        this.amountIntegerNumbs = amountIntegerNumbs;
-    }
+
+
 
 
 }
