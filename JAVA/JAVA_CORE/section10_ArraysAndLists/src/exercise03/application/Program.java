@@ -49,7 +49,7 @@ public class Program {
         double averageHeight = sumHeight/amountPerson;
 
         int countAge = 0;
-       
+
         for(int i = 0; i < amountPerson;i++){
             if(ageOfPerson[i] < 16){
                 countAge++;
