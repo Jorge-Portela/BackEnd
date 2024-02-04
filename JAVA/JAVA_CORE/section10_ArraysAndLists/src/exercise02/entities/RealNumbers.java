@@ -2,9 +2,7 @@ package exercise02.entities;
 
 public class RealNumbers {
 
-
     private double inputNumber;
-
 
 
     public RealNumbers(double inputNumber){
