@@ -10,6 +10,8 @@ package exercise03.application;
 * people under 16 years old, as well as the names of these people, if any.
 * */
 
+import exercise03.entities.PersonHeight;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,39 +24,36 @@ public class Program {
 
         System.out.print(" How many People will be registered?  ");
         int amountPerson = readerNumb.nextInt();
-        String[] nameOfPerson = new String[amountPerson];
-        int[] ageOfPerson = new int [amountPerson];
-        double[] heightOfPerson = new double[amountPerson];
+        PersonHeight[] personHeights = new PersonHeight[amountPerson];
+
 
         int count=1;
         for(int i = 0; i < amountPerson;i++){
                 System.out.println("Person "+count+" details:");
                 System.out.print("Name: ");
                 String name = readerStr.nextLine();
-                nameOfPerson[i] = name;
                 System.out.print("Age: ");
                 int age = readerNumb.nextInt();
-                ageOfPerson[i] =  age;
                 System.out.print("Height: ");
                 double height = readerNumb.nextDouble();
-                heightOfPerson[i] = height;
+                personHeights[i] = new PersonHeight(name,age,height);
 
                 count++;
         }
 
         double sumHeight =0;
         for(int i = 0; i < amountPerson; i++){
-            sumHeight += heightOfPerson[i];
+            sumHeight += personHeights[i].getHeightOfPerson();
         }
+
         double averageHeight = sumHeight/amountPerson;
 
         int countAge = 0;
 
         for(int i = 0; i < amountPerson;i++){
-            if(ageOfPerson[i] < 16){
-                countAge++;
-
-            }
+          if(personHeights[i].getAgeOfPerson() < 16){
+              countAge++;
+          }
         }
 
         double agePersonPct = ( (double)countAge/amountPerson)*100;
@@ -64,9 +63,7 @@ public class Program {
 
         System.out.println("\nNames: ");
         for(int i = 0;i <amountPerson;i++){
-            if(ageOfPerson[i] < 16){
-                System.out.println(nameOfPerson[i]);
-            }
+            personHeights[i].filterNameAge(personHeights[i].getAgeOfPerson());
         }
 
 
