@@ -5,6 +5,8 @@ public class PersonHeight {
     private int ageOfPerson;
     private double heightOfPerson;
 
+    public PersonHeight(){}
+
     public PersonHeight(String nameOfPerson, int ageOfPerson, double heightOfPerson){
         this.nameOfPerson = nameOfPerson;
         this.ageOfPerson = ageOfPerson;
