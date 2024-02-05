@@ -1,5 +1,7 @@
 package exercise04.application;
 
+import exercise04.entities.PairsNumb;
+
 import java.util.Locale;
 import java.util.Scanner;
 /*
@@ -18,24 +20,26 @@ public class Program {
         System.out.print("How many numbers will you entered? ");
         int amountNumb = readerNumb.nextInt();
 
-        int[] pairsNumb = new int[amountNumb];
+        PairsNumb[] pairsNumb = new PairsNumb[amountNumb];
 
-        int inputNumb;
+
         for (int i = 0;i < pairsNumb.length; i++){
             System.out.print("Enter a number: ");
-            pairsNumb[i] = inputNumb = readerNumb.nextInt();
+            int inputNumb = readerNumb.nextInt();
+            pairsNumb[i] = new PairsNumb(inputNumb);
         }
 
         System.out.println("\nPAIR NUMBERS: ");
         int count = 0;
         for(int i = 0; i < pairsNumb.length; i++){
-            if( pairsNumb[i] % 2 == 0){
-                System.out.print(pairsNumb[i]+ "  ");
-                count++;
-            }
+          if(pairsNumb[i].getInputNumb() % 2 ==0){
+              System.out.print(pairsNumb[i].getInputNumb() + "  ");
+              count++;
+          }
+
         }
 
-        System.out.println("\n\nNUMBER OF PAIRS = " + count);
+        System.out.println("\n\nNUMBER OF PAIRS = " +count);
 
         readerNumb.close();
 
