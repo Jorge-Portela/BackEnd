@@ -1,7 +1,7 @@
 package exercise05.application;
 
 
-import exercise05.entities.HighesPlace;
+import exercise05.entities.HighestPlace;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -24,25 +24,25 @@ public class Program {
         System.out.print("How many numbers will you entered? ");
         int amountNumb = reader.nextInt();
 
-        HighesPlace[] higherPlace = new HighesPlace[amountNumb];
+        HighestPlace[] higherPlace = new HighestPlace[amountNumb];
 
         for(int i=0; i < higherPlace.length;i++){
             System.out.print("Enter a number: ");
             double inputNumb = reader.nextDouble();
-            higherPlace[i] = new HighesPlace(inputNumb);
+            higherPlace[i] = new HighestPlace(inputNumb);
         }
 
         double higherIndex = 0;
         int index = 0;
         for(int i = 0; i < higherPlace.length;i++){
-            if(higherIndex < higherPlace[i].getInputNumb()){
+                if(higherIndex < higherPlace[i].getInputNumb()){
                 higherIndex = higherPlace[i].getInputNumb();
                 index = i;
             }
         }
 
-        System.out.println("\nHIGHEST VALUE = "+higherIndex);
-        System.out.println("HIGHEST VALUE POSITION = "+index);
+        System.out.printf("\nHIGHEST VALUE = %.1f",higherIndex);
+        System.out.println("\nHIGHEST VALUE POSITION = "+index);
         reader.close();
     }
 }

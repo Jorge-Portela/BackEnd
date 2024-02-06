@@ -1,16 +1,17 @@
 package exercise05.entities;
 
-public class HighesPlace {
+public class HighestPlace {
 
     private double inputNumb;
-    public HighesPlace(){}
-    public HighesPlace(double inputNumb){
+    public HighestPlace(){}
+    public HighestPlace(double inputNumb){
         this.inputNumb = inputNumb;
     }
 
     public double getInputNumb(){
         return this.inputNumb;
     }
+
 
 
 }
