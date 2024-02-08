@@ -10,6 +10,8 @@ package exercise06.application;
 * elementos correspondentes de A e B. Imprima o vetor C gerado.
 * */
 
+import exercise06.entities.SumArrays;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -20,26 +22,27 @@ public class Program {
 
         System.out.print("How many value will each array have ? ");
         int amountInput = reader.nextInt();
-        int[] addingArrayA = new int[amountInput];
-        int[] addingArrayB = new int[amountInput];
-        int[] addingArrayC = new int[amountInput];
+        SumArrays[] addingArrayA = new SumArrays[amountInput];
+        SumArrays[] addingArrayB = new SumArrays[amountInput];
+        SumArrays[] addingArrayC = new SumArrays[amountInput];
 
         System.out.println("Enter the values of array A:");
         for (int i=0; i < addingArrayA.length;i++){
             int inputValue = reader.nextInt();
-            addingArrayA[i] = inputValue;
+            addingArrayA[i] = new SumArrays(inputValue);
         }
 
         System.out.println("\nEnter the values of array B:");
         for (int i=0; i < addingArrayB.length;i++){
             int inputValue = reader.nextInt();
-            addingArrayB[i] = inputValue;
+            addingArrayB[i] = new SumArrays(inputValue);
         }
 
         System.out.println("\nResulting Array:");
         for (int i=0; i < amountInput;i++){
-            addingArrayC[i] = addingArrayA[i] + addingArrayB[i];
-            System.out.println(addingArrayC[i]);
+            int inputArrayC = addingArrayA[i].getInputValue() + addingArrayB[i].getInputValue();
+            addingArrayC[i] = new SumArrays(inputArrayC);
+            System.out.println(addingArrayC[i].getInputValue());
         }
 
         reader.close();
