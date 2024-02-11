@@ -12,6 +12,8 @@ package exercise07.application;
 * do vetor que estejam abaixo da média, com uma casa decimal cada.
 * */
 
+import exercise07.entities.BelowOfAverage;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,14 +24,14 @@ public class Program {
 
         System.out.print("How many elements will the array have? ");
         int amountElements = reader.nextInt();
-        double [] averageArray = new double[amountElements];
+        BelowOfAverage[] averageArray = new BelowOfAverage[amountElements];
 
         double sumElements =0.0;
         for(int i = 0; i < averageArray.length;i++){
             System.out.print("Enter a number: ");
-            double inputElement = reader.nextDouble();
-            averageArray[i] = inputElement;
-            sumElements += averageArray[i];
+            double inputNumb = reader.nextDouble();
+            averageArray[i] = new BelowOfAverage(inputNumb);
+            sumElements += averageArray[i].getInputNumb();
         }
 
         double averageElements = sumElements/averageArray.length;
@@ -37,8 +39,8 @@ public class Program {
 
         System.out.println("\nELEMENTS BELOW OF AVERAGE: ");
         for(int i =0; i < amountElements;i++){
-            if(averageArray[i] < averageElements){
-                System.out.println(averageArray[i]);
+            if(averageArray[i].getInputNumb() < averageElements){
+                System.out.println(averageArray[i].getInputNumb());
             }
         }
 
