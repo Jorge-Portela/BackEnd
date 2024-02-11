@@ -33,7 +33,7 @@ public class Program {
         }
 
         double averageElements = sumElements/averageArray.length;
-        System.out.printf("\nARRAY AVERAGE = %.3f",averageElements);
+        System.out.printf("\nARRAYS AVERAGE = %.3f",averageElements);
 
         System.out.println("\nELEMENTS BELOW OF AVERAGE: ");
         for(int i =0; i < averageArray.length;i++){
