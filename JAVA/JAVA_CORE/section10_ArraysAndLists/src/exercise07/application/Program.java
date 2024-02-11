@@ -36,7 +36,7 @@ public class Program {
         System.out.printf("\nARRAYS AVERAGE = %.3f",averageElements);
 
         System.out.println("\nELEMENTS BELOW OF AVERAGE: ");
-        for(int i =0; i < averageArray.length;i++){
+        for(int i =0; i < amountElements;i++){
             if(averageArray[i] < averageElements){
                 System.out.println(averageArray[i]);
             }
