@@ -39,7 +39,7 @@ public class Program {
         double averageInput = sumInputs/countEven;
 
         if (averageInput > 0){
-            System.out.printf("AVERAGE OF EVENS: %.1f",averageInput);
+            System.out.printf("AVERAGE OF EVENS =  %.1f",averageInput);
         }else{
             System.out.println("NO EVEN NUMBER");
         }
