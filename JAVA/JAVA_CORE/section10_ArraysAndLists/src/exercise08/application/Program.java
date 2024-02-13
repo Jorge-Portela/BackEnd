@@ -1,5 +1,7 @@
 package exercise08.application;
 
+import exercise08.entities.EvenPairs;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -20,18 +22,18 @@ public class Program {
 
         System.out.print("How many elements will the array have? ");
         int amountInput = reader.nextInt();
-        int[] evenPair = new int[amountInput];
+        EvenPairs[] evenPair = new EvenPairs[amountInput];
 
         for(int i = 0; i < evenPair.length;i++){
             System.out.print("Enter a number: ");
-            evenPair[i] = reader.nextInt();
+            evenPair[i] = new EvenPairs(reader.nextInt());
         }
 
         double sumInputs = 0, countEven = 0;
 
         for(int i = 0; i < amountInput;i++){
-            if(evenPair[i] % 2 == 0){
-                sumInputs += evenPair[i];
+            if(evenPair[i].getInputNumbers() % 2 == 0){
+                sumInputs += evenPair[i].getInputNumbers();
                 countEven++;
             }
         }
