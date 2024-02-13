@@ -10,6 +10,8 @@ package exercise09.application;
 * Depois, mostrar na tela o nome da pessoa mais velha.
 * */
 
+import exercise09.entities.OlderPerson;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,25 +24,26 @@ public class Program {
 
         System.out.print("How many persons will you entered? ");
         int amountInput = readerNumb.nextInt();;
-        String[] namePersons = new String[amountInput];
-        int[] agePersons = new int[amountInput];
+        OlderPerson[] person = new OlderPerson[amountInput];
+
 
         int count = 1;
-        for (int i = 0; i < amountInput; i++){
+        for (int i = 0; i < person.length; i++){
             System.out.println("Person Data "+count+":");
             System.out.print("Name: ");
-            namePersons[i] = readerStr.nextLine();
+            String name = readerStr.nextLine();
             System.out.print("Age: ");
-            agePersons[i] = readerNumb.nextInt();
+            int age = readerNumb.nextInt();
+            person[i] = new OlderPerson(name,age);
             count++;
         }
 
         int lowerAge = 0;
         String receiveName = null;
-        for(int i = 0; i < amountInput;i++){
-            if(lowerAge < agePersons[i]){
-                lowerAge = agePersons[i];
-                receiveName = namePersons[i];
+        for(int i = 0; i < person.length;i++){
+            if(lowerAge < person[i].getAge()){
+                lowerAge = person[i].getAge();
+                receiveName = person[i].getName();
             }
         }
 
