@@ -6,6 +6,8 @@ public class StudentFinalGrade {
     private double firstGrade;
     private double secondGrade;
 
+    public StudentFinalGrade(){}
+
     public StudentFinalGrade(String name, double firstGrade, double secondGrade){
         this.name = name;
         this.firstGrade = firstGrade;

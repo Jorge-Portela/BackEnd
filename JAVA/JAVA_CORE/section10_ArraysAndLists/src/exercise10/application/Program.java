@@ -41,7 +41,7 @@ public class Program {
         }
 
 
-        System.out.println("APPROVED STUDENTS: ");
+        System.out.println("\nAPPROVED STUDENTS: ");
         for(int i = 0; i < amountStudent;i++){
             student1[i].averageGrade(student1[i].getFirstGrade(),student1[i].getSecondGrade());
             student1[i].approvedStudent(student1[i].getFirstGrade(),student1[i].getSecondGrade());
