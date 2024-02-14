@@ -12,6 +12,8 @@ package exercise10.application;
 * aqueles cuja média das notas seja maior ou igual a 6.0 (seis).
 * */
 
+import exercise10.entities.StudentFinalGrade;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -23,33 +25,27 @@ public class Program {
 
         System.out.print("How many students will be enrolled? ");
         int amountStudent = readerNumb.nextInt();
-        String[] nameOfStudent = new String[amountStudent];
-        double[] firstGrade = new double[amountStudent];
-        double[] secondGrade = new double[amountStudent];
+        StudentFinalGrade[] student1 = new StudentFinalGrade[amountStudent];
 
         int count = 1;
         for(int i = 0; i < amountStudent;i++){
             System.out.println("\nEnter  the "+count+"° student data: ");
             System.out.print("Name: ");
-            nameOfStudent[i] = readerStr.nextLine();
+            String nameOfStudent = readerStr.nextLine();
             System.out.print("First Grade: ");
-            firstGrade[i] = readerNumb.nextDouble();
+            double firstGrade = readerNumb.nextDouble();
             System.out.print("Second Grade: ");
-            secondGrade[i] = readerNumb.nextDouble();
+            double secondGrade = readerNumb.nextDouble();
+            student1[i] = new StudentFinalGrade(nameOfStudent, firstGrade, secondGrade);
             count++;
-
         }
-        double averageGrade = 0;
+
+
         System.out.println("APPROVED STUDENTS: ");
         for(int i = 0; i < amountStudent;i++){
-            averageGrade = (firstGrade[i] + secondGrade[i])/2;
-            if(averageGrade >= 6.0){
-                System.out.println(nameOfStudent[i]);
-            }
+            student1[i].averageGrade(student1[i].getFirstGrade(),student1[i].getSecondGrade());
+            student1[i].approvedStudent(student1[i].getFirstGrade(),student1[i].getSecondGrade());
         }
-
-
-
 
 
         readerStr.close();
