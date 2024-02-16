@@ -3,7 +3,7 @@ package fixationExercise.entities;
 public class Hostel {
     private String name;
     private String email;
-    private int room;
+
 
     public Hostel(){}
 

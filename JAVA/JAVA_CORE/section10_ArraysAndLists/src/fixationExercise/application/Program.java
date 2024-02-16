@@ -17,9 +17,9 @@ public class Program {
         System.out.print("\nHow many rooms will be rented ?: ");
         int numbOfStudents = readerNumb.nextInt();
 
-        int countRooms = 1;
+
         for (int i = 0; i < numbOfStudents; i++) {
-            System.out.print("\nRent #" + countRooms + ": ");
+            System.out.print("\nRent #" + (i+1) + ": ");
             System.out.print("\nName: ");
             String name = readerString.nextLine();
             System.out.print("Email: ");
@@ -28,8 +28,6 @@ public class Program {
             int room = readerNumb.nextInt();
 
             rooms[room] = new Hostel(name, email);
-
-            countRooms++;
         }
 
         System.out.println("\nBusy rooms: ");
