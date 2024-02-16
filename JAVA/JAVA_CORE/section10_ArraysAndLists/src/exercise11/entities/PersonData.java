@@ -2,11 +2,11 @@ package exercise11.entities;
 
 public class PersonData {
     private double height;
-    private String gender;
+    private char gender;
 
     public PersonData(){}
 
-    public PersonData(double height,String gender){
+    public PersonData(double height,char gender){
         this.height = height;
         this.gender = gender;
     }
@@ -15,7 +15,7 @@ public class PersonData {
         return this.height;
     }
 
-    public String getGender(){
+    public char getGender(){
         return this.gender;
     }
 

@@ -18,24 +18,22 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
-        Scanner readerStr = new Scanner(System.in);
-        Scanner readerNumb = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
+
 
         System.out.print("How many persons will be entered? ");
-        int amountPerson = readerNumb.nextInt();
+        int amountPerson = reader.nextInt();
         PersonData[] person = new PersonData[amountPerson];
 
 
-        int count=1;
+
         for(int i = 0; i < amountPerson;i++){
-            System.out.print("Height of "+count+"º persson:");
-            double height = readerNumb.nextDouble();
-            System.out.print("Gender of "+count+"º persson: ");
-            String gender = readerStr.nextLine();
+            System.out.print("Height of "+(i+1)+"º persson:");
+            double height = reader.nextDouble();
+            System.out.print("Gender of "+(i+1)+"º persson: ");
+            char gender = reader.next().charAt(0);
             person[i] = new PersonData(height,gender);
             System.out.println();
-
-            count++;
         }
 
 
@@ -52,19 +50,21 @@ public class Program {
                 upperHeight = person[i].getHeight();
             }
         }
+
         double sumGenderWomen=0;
         int countGender = 0;
         for (int i =0; i < amountPerson;i++){
-            if(person[i].getGender().equalsIgnoreCase("F")){
+            if(Character.toUpperCase(person[i].getGender()) == 'F'){
                 sumGenderWomen += person[i].getHeight();
                 countGender ++;
             }
         }
+
         double averageHeight = sumGenderWomen/countGender;
 
         int sumGenderMen = 0;
         for (int i =0; i<amountPerson;i++){
-            if(person[i].getGender().equalsIgnoreCase("M")){
+            if(Character.toUpperCase(person[i].getGender()) == 'M'){
                 sumGenderMen ++;
             }
         }
@@ -74,8 +74,7 @@ public class Program {
         System.out.printf("\nAVERAGE HEIGHT OF WOMEN'S = %.2f",averageHeight);
         System.out.println("\nNUMBERS OF MENS = "+sumGenderMen);
 
-        readerStr.close();
-        readerNumb.close();
+        reader.close();
     }
 
 }
