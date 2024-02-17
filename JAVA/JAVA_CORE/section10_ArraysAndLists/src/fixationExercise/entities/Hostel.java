@@ -18,6 +18,7 @@ public class Hostel {
         return name;
     }
 
+    //If necessary to change the name host
     public void setName(String name){
         this.name = name;
     }
@@ -26,6 +27,7 @@ public class Hostel {
         return email;
     }
 
+    //If necessary to change the email host
     public void setEmail(String email){
         this.email = email;
     }
