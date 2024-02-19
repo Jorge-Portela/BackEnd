@@ -37,14 +37,14 @@ public class Program {
         }
 
 
-        double lowerHeight = person[0].getHeight();
+        double lowerHeight = 0;
         for(int i = 0; i < amountPerson; i++){
             if(lowerHeight > person[i].getHeight()){
                 lowerHeight = person[i].getHeight();
             }
         }
 
-        double upperHeight = person[0].getHeight();
+        double upperHeight = 0;
         for(int i = 0; i < amountPerson; i++){
             if(upperHeight < person[i].getHeight()){
                 upperHeight = person[i].getHeight();
