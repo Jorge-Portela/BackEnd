@@ -34,7 +34,7 @@ public class Program {
          System.out.print("How many numbers will you enter: ");
          int amountIntegerNumbs = reader.nextInt();
 
-        for(int i = 0; i < amountIntegerNumbs; i++){
+        for(int i = 0; i < amountIntegerNumbs;i++){
             System.out.print("Enter a number: ");
             int inputNumber ;
             integerNumb[i] = new NegativesNumbers(inputNumber = reader.nextInt());
@@ -42,7 +42,7 @@ public class Program {
 
          System.out.println("NEGATIVES NUMBERS: ");
 
-         for(int i = 0; i < amountIntegerNumbs; i++){
+         for(int i =0; i < amountIntegerNumbs;i++){
             integerNumb[i].selectNegativesNumbers(integerNumb[i].getAmountIntegerNumbs());
 
          }
