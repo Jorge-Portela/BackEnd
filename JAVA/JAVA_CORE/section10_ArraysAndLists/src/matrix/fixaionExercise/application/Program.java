@@ -14,8 +14,6 @@ package matrix.fixaionExercise.application;
  * esquerda, acima, à direita e abaixo de X, quando houver.
  * */
 
-
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -66,11 +64,9 @@ public class Program {
                     if (i < matrix.length - 1) {
                         System.out.println("Element on Down: " + (matrix[i + 1][j]));
                     }
-
                 }
             }
         }
-
 
         reader.close();
     }
