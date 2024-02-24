@@ -8,10 +8,9 @@ public class Program {
     public static void main(String[] args){
 
 
-        // https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
+        //https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
 
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
         //Reports the local date at this moment
@@ -32,13 +31,11 @@ public class Program {
 
         //Report Local Date with parameter to format the output entered by String
         LocalDate d08 = LocalDate.parse("24/02/2024",fmt1);
-
         //Report Local Date Time with parameter to format the output entered by String
         LocalDateTime d09 = LocalDateTime.parse("24/02/2024 18:07",fmt2);
 
         //Report Date entered by parameter
         LocalDate d10 = LocalDate.of(2024, 02, 24);
-
         //Report Date Time entered by parameter
         LocalDateTime d11 = LocalDateTime.of(2024, 02, 24, 18, 15, 20);
 
