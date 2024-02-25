@@ -1,4 +1,4 @@
-package exampleExercise.ApplicationCustomized;
+package exampleExercise.localToGlobal.Application;
 
 import java.time.Instant;
 import java.time.LocalDate;
