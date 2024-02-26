@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33cd69c6-be24-46ed-84a7-d340a33a786f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../JAVA_DATA_STRUCTURE_AND_ALGORITHM/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JAVA_DATA_STRUCTURE_AND_ALGORITHM/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JAVA_DATA_STRUCTURE_AND_ALGORITHM/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JAVA_DATA_STRUCTURE_AND_ALGORITHM/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JAVA_DATA_STRUCTURE_AND_ALGORITHM/JAVA_DATA_STRUCTURE_AND_ALGORITHM.iml" afterDir="false" />
-    </list>
+    <list default="true" id="33cd69c6-be24-46ed-84a7-d340a33a786f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +71,7 @@
       <workItem from="1708887214550" duration="569000" />
       <workItem from="1708887788707" duration="184000" />
       <workItem from="1708887980094" duration="1195000" />
-      <workItem from="1708889183190" duration="4823000" />
+      <workItem from="1708889183190" duration="9556000" />
     </task>
     <servers />
   </component>
