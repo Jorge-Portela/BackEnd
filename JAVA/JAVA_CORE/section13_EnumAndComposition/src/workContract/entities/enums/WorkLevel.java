@@ -1,4 +1,5 @@
 package workContract.entities.enums;
 
-public class WorkLevel {
+public enum WorkLevel {
+    JUNIOR, MID_LEVEL,SENIOR;
 }
