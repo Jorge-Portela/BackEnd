@@ -13,7 +13,7 @@ public class Department {
         return this.name;
     }
 
-    public void getName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
