@@ -2,6 +2,8 @@ package workContract.entities;
 
 import workContract.entities.enums.WorkerLevel;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -62,7 +64,23 @@ public class Worker {
         contracts.add(contract);
     }
 
+
     public void removeContract(HourContract contract) {
         contracts.remove(contract);
     }
+
+    public double income(int year, int month,int day){
+        double sum = baseSalary;
+        DateTimeFormatter formateDate = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate contractDate = LocalDate.of(year,month,day);
+        for(HourContract c : contracts){
+            int cYear = contractDate.getYear();
+            int cMonth = contractDate.getDayOfMonth();
+            if(year == cYear && month == cMonth){
+                sum += c.totalValue();
+            }
+        }
+        return sum;
+    }
+
 }
