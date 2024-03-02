@@ -69,10 +69,10 @@ public class Worker {
         contracts.remove(contract);
     }
 
-    public double income(int year, int month, String comparedDate){
+    public double income(int year, int month){
         double sum = baseSalary;
-        DateTimeFormatter formatterDate = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate contractDate = LocalDate.parse(comparedDate,formatterDate);
+        DateTimeFormatter formatterDate = DateTimeFormatter.ofPattern("MM/yyyy");
+        LocalDate contractDate = LocalDate.now();
         for(HourContract c : contracts){
             int cYear = contractDate.getYear();
             int cMonth = contractDate.getDayOfMonth();
@@ -82,5 +82,4 @@ public class Worker {
         }
         return sum;
     }
-
 }
