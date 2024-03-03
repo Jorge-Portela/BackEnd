@@ -1,9 +1,11 @@
 package workContract.entities;
 
 import java.time.LocalDate;
-import java.util.Date;
+
 
 public class HourContract {
+
+    //
     private LocalDate date;
     private Double valuePerHour;
     private Integer hours;

@@ -2,7 +2,7 @@ package workContract.entities;
 
 import workContract.entities.enums.WorkerLevel;
 
-import java.time.LocalDate;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,11 +70,10 @@ public class Worker {
 
     public double income(Integer year, Integer month) {
         double sum = baseSalary;
-
         for (HourContract c : contracts) {
-            int c_year = Integer.valueOf(c.getDate().getYear());
-            int c_month = Integer.valueOf(c.getDate().getMonthValue());
-            if (year == c_year && month == c_month) {
+            int cYear = Integer.valueOf(c.getDate().getYear());
+            int cMonth = Integer.valueOf(c.getDate().getMonthValue());
+            if (year == cYear && month == cMonth) {
                 sum += c.totalValue();
             }
         }
