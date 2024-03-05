@@ -57,10 +57,12 @@ public class Program {
             double productPrice = reader.nextDouble();
             System.out.print("Quantity: ");
             int productQuantity = reader.nextInt();
+            reader.nextLine();
 
             OrderItem orderItem1 = new OrderItem(productQuantity,productPrice,new Product(productName,productPrice));
-            reader.nextLine();
+            order1.addItem(orderItem1);
         }
+
 
         System.out.println(order1);
 

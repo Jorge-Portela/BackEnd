@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33cd69c6-be24-46ed-84a7-d340a33a786f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/postInteraction/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/postInteraction/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/postInteraction/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/postInteraction/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/postInteraction/postInteraction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/workContract/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/workContract/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/workContract/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/workContract/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/workContract/workContract.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/entities/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
