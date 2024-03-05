@@ -9,6 +9,8 @@ package clientOrder.application;
 
 import clientOrder.entities.Client;
 import clientOrder.entities.Order;
+import clientOrder.entities.OrderItem;
+import clientOrder.entities.Product;
 import clientOrder.entities.enums.OrderStatus;
 
 import java.time.LocalDate;
@@ -23,7 +25,11 @@ public class Program {
 
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
+
+        DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         LocalDateTime timeStamp = LocalDateTime.now();
+
 
 
         System.out.println("Enter client data: ");
@@ -32,11 +38,11 @@ public class Program {
         System.out.print("Email: ");
         String email = reader.nextLine();
         System.out.print("Birth date (DD/MM/YYYY): ");
-        LocalDate birthDate = LocalDate.parse(reader.nextLine());
+        LocalDate birthDate = LocalDate.parse(reader.nextLine(),fmt1);
         System.out.println("Enter order data:");
         System.out.print("Status: ");
         String orderStatus = reader.nextLine();
-        System.out.print("How many items to this order? ");
+        System.out.print("\nHow many items to this order? ");
         int amountItem = reader.nextInt();
         reader.nextLine();
 
@@ -44,13 +50,16 @@ public class Program {
 
 
         for(int i = 1; i <= amountItem;i++){
-            System.out.println("Enter #"+i+" item data:");
+            System.out.println("\nEnter #"+i+" item data:");
             System.out.print("Product name: ");
             String productName = reader.nextLine();
             System.out.print("Product price: ");
             double productPrice = reader.nextDouble();
             System.out.print("Quantity: ");
             int productQuantity = reader.nextInt();
+
+            OrderItem orderItem1 = new OrderItem(productQuantity,productPrice,new Product(productName,productPrice));
+            reader.nextLine();
         }
 
         System.out.println(order1);
