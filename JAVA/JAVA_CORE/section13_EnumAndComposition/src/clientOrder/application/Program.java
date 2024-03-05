@@ -39,7 +39,7 @@ public class Program {
         String email = reader.nextLine();
         System.out.print("Birth date (DD/MM/YYYY): ");
         LocalDate birthDate = LocalDate.parse(reader.nextLine(),fmt1);
-        System.out.println("Enter order data:");
+        System.out.println("\nEnter order data:");
         System.out.print("Status: ");
         String orderStatus = reader.nextLine();
         System.out.print("\nHow many items to this order? ");

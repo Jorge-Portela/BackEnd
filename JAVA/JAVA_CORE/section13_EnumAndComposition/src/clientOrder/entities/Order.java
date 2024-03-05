@@ -72,18 +72,20 @@ public class Order {
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("ORDER SUMMARY:"+ "\n");
+        sb.append("\nORDER SUMMARY:"+ "\n");
         sb.append("Order moment: "+ fmt.format(getMoment())+"\n");
         sb.append("Order status: "+ status+"\n");
         sb.append("Client: "+ client.getName() + " ("+client.getBirthDate()+")");
         sb.append(" - "+client.getEmail()+"\n");
-        sb.append("Order items:"+"\n");
+        sb.append("\n----------------------------------------------\n");
+        sb.append("\nOrder items:"+"\n");
         for(OrderItem o : orderItemList){
             sb.append(o.getProduct().getName()+", $" +String.format("%.2f",o.getPrice())+", ");
             sb.append("Quantity: "+o.getQuantity()+", Subtotal: ");
             sb.append("$"+String.format("%.2f",o.subTotal())+"\n");
         }
-        sb.append("Total price: $"+String.format("%.2f",total()));
+        sb.append("\n----------------------------------------------");
+        sb.append("\nTotal price: $"+String.format("%.2f",total()));
 
         return sb.toString();
     }
