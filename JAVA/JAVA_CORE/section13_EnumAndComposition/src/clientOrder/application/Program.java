@@ -27,7 +27,6 @@ public class Program {
         Scanner reader = new Scanner(System.in);
 
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         LocalDateTime timeStamp = LocalDateTime.now();
 
 
