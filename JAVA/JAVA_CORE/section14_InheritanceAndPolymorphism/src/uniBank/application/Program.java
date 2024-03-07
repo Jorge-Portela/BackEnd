@@ -11,11 +11,21 @@ public class Program  {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        Account acc = new Account(1001,"Alex",0.0);
-        BusinessAccount bacc = new BusinessAccount(1002,"Maria",0.0,500.0);
+        Account acc = new Account(1001,"Alex",1000.0);
+
+        acc.withdraw(200.0);
+        System.out.println("TYPE: Personal Account: \nDESCRIPTION: tax of $5.00 to each WITHDRAW \nBALANCE: $"+acc.getBalance());
+
+        Account sacc = new SavingsAccount(1007, "Paola", 1000.0,0.01);
+        sacc.withdraw(200.0);
+        System.out.println("\nTYPE: Saving Account: \nDESCRIPTION: Without a tax of $5.00 \nBALANCE: $"+sacc.getBalance());
+
+        BusinessAccount bacc = new BusinessAccount(1002,"Maria",1000.0,500.0);
+        bacc.withdraw(200.0);
+        System.out.println("\nTYPE: Business Account: \nDESCRIPTION: Without a tax of $7.00 \nBALANCE: $"+bacc.getBalance());
+
 
         //UPCASTING
-
 
         Account acc1 = bacc;
         Account acc2 = new BusinessAccount(1003,"bob",0.0,200.0);
