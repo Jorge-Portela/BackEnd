@@ -3,7 +3,10 @@ package commercialProduct.entities;
 public class ImportedProduct extends Product {
     private Double customFee;
 
-    public ImportedProduct(){}
+    public ImportedProduct(){
+        super();
+    }
+
     public ImportedProduct(String name, Double price, Double customFee) {
         super(name, price);
         this.customFee = customFee;
@@ -15,5 +18,20 @@ public class ImportedProduct extends Product {
 
     public void setCustomFee(Double customFee) {
         this.customFee = customFee;
+    }
+
+
+    public Double totalPrice(){
+        return getPrice() + this.customFee;
+    }
+
+    @Override
+    public String toString(){
+        return getName()
+                + " $ "
+                + String.format("%.2f",totalPrice())
+                + " (Customs fee: $ "
+                + String.format("%.2f",getCustomFee())
+                +")";
     }
 }
