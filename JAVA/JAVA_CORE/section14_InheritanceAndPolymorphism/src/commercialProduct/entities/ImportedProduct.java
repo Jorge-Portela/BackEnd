@@ -26,7 +26,7 @@ public class ImportedProduct extends Product {
     }
 
     @Override
-    public String toString(){
+    public String priceTag(){
         return getName()
                 + " $ "
                 + String.format("%.2f",totalPrice())

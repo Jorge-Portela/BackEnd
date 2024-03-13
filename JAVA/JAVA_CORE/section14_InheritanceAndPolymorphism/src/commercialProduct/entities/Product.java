@@ -26,7 +26,8 @@ public class Product {
         this.price = price;
     }
 
-  //  public String priceTag(){
+    public String priceTag(){
+
         
-   // }
+    }
 }
