@@ -4,6 +4,8 @@ import uniBank.entities.Account;
 import uniBank.entities.BusinessAccount;
 import uniBank.entities.SavingsAccount;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 ;
 
@@ -11,9 +13,28 @@ public class Program  {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        Account acc1 = new Account(1001,"Alex",1000.0);
-        Account acc2 = new SavingsAccount(1002, "Maria",1000.0,0.01);
-        Account acc3 = new BusinessAccount(1003,"Bob",1000.0,500.0);
+        List <Account> accountList = new ArrayList<>();
+
+        accountList.add(new SavingsAccount(1001, "Maria",1000.0,0.01));
+        accountList.add(new BusinessAccount(1002,"Bob",1000.0,500.0));
+        accountList.add(new BusinessAccount(1003,"Felix", 4300.0, 10000.0));
+        accountList.add(new SavingsAccount(1004,"Hudson",6600.0,0.03));
+
+        // Deposit $ 10.00 in each account created
+        double sum = 0.0;
+        for(Account acc : accountList){
+             acc.deposit(10.0);
+             sum += acc.getBalance();
+        }
+
+        System.out.printf("%nTotal Balance of Accounts: $ %.2f%n ",sum);
+
+        System.out.println();
+        // Show the balance updated of every account
+        for(Account acc2 :accountList){
+            System.out.printf("Update Balance, %d: $ %.2f%n",acc2.getNumber(),acc2.getBalance());
+        }
+
 
        /* Account acc1 = new Account(1001,"Bob Proctor",1000.0);
 
