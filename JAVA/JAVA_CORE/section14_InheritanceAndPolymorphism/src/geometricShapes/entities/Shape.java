@@ -11,6 +11,7 @@ public abstract class Shape {
         this.color = color;
     }
 
+
     public Color getColor() {
         return color;
     }
