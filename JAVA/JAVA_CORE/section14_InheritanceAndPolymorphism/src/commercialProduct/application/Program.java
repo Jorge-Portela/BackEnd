@@ -63,8 +63,8 @@ public class Program {
 
         System.out.println("\nPRICE TAGS:");
 
-        for(Product p: products){
-            System.out.println(p.priceTag());
+        for(Product prod: products){
+            System.out.println(prod.priceTag());
         }
 
         reader.close();
