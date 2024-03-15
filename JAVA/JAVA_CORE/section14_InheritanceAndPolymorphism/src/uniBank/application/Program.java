@@ -11,7 +11,11 @@ public class Program  {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        Account acc1 = new Account(1001,"Bob Proctor",1000.0);
+        Account acc1 = new Account(1001,"Alex",1000.0);
+        Account acc2 = new SavingsAccount(1002, "Maria",1000.0,0.01);
+        Account acc3 = new BusinessAccount(1003,"Bob",1000.0,500.0);
+
+       /* Account acc1 = new Account(1001,"Bob Proctor",1000.0);
 
         Account sacc1 = new SavingsAccount(1003,"July Jimenez",1000.00,0.01);
 
@@ -26,7 +30,7 @@ public class Program  {
 
         //BusinessAccount acc5 = (BusinessAccount)acc3;
 
-     /*   if(acc3 instanceof BusinessAccount){
+        if(acc3 instanceof BusinessAccount){
             BusinessAccount acc5 = (BusinessAccount) acc3;
             acc5.loan(200.0);
             System.out.println("Loan!");

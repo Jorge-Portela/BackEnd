@@ -1,6 +1,6 @@
 package uniBank.entities;
 
-public class Account {
+public class abstract  Account {
     private Integer number;
     private String holder;
     protected Double balance;
