@@ -24,44 +24,35 @@ public class Program {
             System.out.println("\nTax payer #" + i + " data:");
             System.out.print("Individual or Company (i/c)? ");
             String payerType = reader.nextLine();
+            System.out.print("Name: ");
+            String name = reader.nextLine();
+            System.out.print("Annual income: ");
+            double income = reader.nextDouble();
+            reader.nextLine();
             if (payerType.equalsIgnoreCase("i")) {
-                System.out.print("Name: ");
-                String nameOfIndividual = reader.nextLine();
-                System.out.print("Annual income: ");
-                double incomeOfIndividual = reader.nextDouble();
                 System.out.print("Health expenditures: ");
                 double healthOfIndividual = reader.nextDouble();
                 reader.nextLine();
 
-                taxPayers.add(new Individual(nameOfIndividual, incomeOfIndividual, healthOfIndividual));
-
+                taxPayers.add(new Individual(name, income, healthOfIndividual));
             } else if (payerType.equalsIgnoreCase("c")) {
-                System.out.print("Name: ");
-                String nameOfCompany = reader.nextLine();
-                System.out.print("Annual income: ");
-                double incomeOfCompany = reader.nextDouble();
                 System.out.print("Number of employees: ");
                 int numbOfEmploy = reader.nextInt();
                 reader.nextLine();
 
-                taxPayers.add(new Company(nameOfCompany, incomeOfCompany, numbOfEmploy));
+                taxPayers.add(new Company(name, income, numbOfEmploy));
             }
         }
 
         System.out.println("\nTAXES PAID:");
-
         double sumTaxes = 0.0;
-
         for (TaxPayer taxPayer : taxPayers) {
             System.out.println(taxPayer);
-
             sumTaxes += taxPayer.tax();
         }
 
         System.out.printf("%nTOTAL TAXES: $ %.2f", sumTaxes);
 
-
         reader.close();
-
     }
 }
