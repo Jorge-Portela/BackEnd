@@ -1,4 +1,5 @@
 package taxManagement.entities;
 
-public class Company {
+public class Company extends TaxPayer{
+    
 }
