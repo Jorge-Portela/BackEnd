@@ -33,4 +33,12 @@ public class Individual extends TaxPayer {
         return individualTax;
     }
 
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getName()).append(": ");
+        sb.append("$ ").append(String.format("%.2f",this.tax()));
+        return sb.toString();
+
+    }
+
 }

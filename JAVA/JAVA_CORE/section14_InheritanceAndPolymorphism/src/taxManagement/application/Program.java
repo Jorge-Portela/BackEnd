@@ -48,18 +48,17 @@ public class Program {
             }
         }
 
-        System.out.println("TAXES PAID:");
+        System.out.println("\nTAXES PAID:");
 
         double sumTaxes = 0.0;
+
         for (TaxPayer taxPayer : taxPayers) {
-            System.out.printf("%n%S: $ %.2f",taxPayer.getName(),taxPayer.tax());
+            System.out.println(taxPayer);
 
             sumTaxes += taxPayer.tax();
         }
-        System.out.printf("%n%nTOTAL TAXES: $ %.2f",sumTaxes);
 
-
-
+        System.out.printf("%nTOTAL TAXES: $ %.2f", sumTaxes);
 
 
         reader.close();

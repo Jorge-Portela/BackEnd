@@ -30,4 +30,12 @@ public class Company extends TaxPayer {
         }
         return taxCompany;
     }
+
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getName()).append(": ");
+        sb.append("$ ").append(String.format("%.2f",this.tax()));
+
+        return sb.toString();
+    }
 }
