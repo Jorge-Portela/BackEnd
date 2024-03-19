@@ -1,15 +1,18 @@
-package resevation.entities;
+package resevation.model.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.concurrent.TimeUnit;
+
 
 public class Reservation {
     private Integer roomNumber;
     private LocalDate checkIn;
     private LocalDate checkOut;
 
+
+    public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) {
         this.roomNumber = roomNumber;
@@ -33,29 +36,27 @@ public class Reservation {
         return checkOut;
     }
 
-    public long duration(){
-        LocalDateTime checkInTime = getCheckIn().atStartOfDay();
-        LocalDateTime checkOutTime = getCheckOut().atStartOfDay();
-        return ChronoUnit.HOURS.between(checkInTime,checkOutTime);
+    public long duration() {
+        return ChronoUnit.DAYS.between(getCheckIn(), getCheckOut());
     }
 
-    public void updateDates(LocalDate checkIn, LocalDate checkOut){
+    public void updateDates(LocalDate checkIn, LocalDate checkOut) {
         this.checkIn = checkIn;
         this.checkOut = checkOut;
     }
 
-    public String toString(){
+    public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Reservation: ");
         sb.append("Room: ").append(getRoomNumber()).append(", ");
-        sb.append("check-In: ").append(getCheckIn()).append(", ");
-        sb.append("check-Out: ").append(getCheckOut()).append(", ");
+        sb.append("check-In: ").append(fmt.format(getCheckIn())).append(", ");
+        sb.append("check-Out: ").append(fmt.format(getCheckOut())).append(", ");
         sb.append(duration());
-        if(duration() < 2){
+        if (duration() < 2) {
             sb.append(" night");
-        }else{
+        } else {
             sb.append(" nights");
         }
-        
         return sb.toString();
     }
 

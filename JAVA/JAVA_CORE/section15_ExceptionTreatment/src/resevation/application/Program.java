@@ -1,23 +1,45 @@
 package resevation.application;
 
+import resevation.model.entities.Reservation;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Program {
     public static void main(String[] args) {
-        // Data e hora de início (10 horas)
-        int startHourInt = 10000; // Usando int
-        long startHourLong = 10000L; // Usando long
+        Locale.setDefault(Locale.US);
+        Scanner reader = new Scanner(System.in);
 
-        // Data e hora de fim (15 horas)
-        int endHourInt = 15000; // Usando int
-        long endHourLong = 15000L; // Usando long
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        // Calculando a diferença em horas usando int
-        int differenceInt = endHourInt - startHourInt;
+        System.out.print("Room number: ");
+        int numbRoom = reader.nextInt();
+        reader.nextLine();
+        System.out.print("Check-In date (dd/MM/yyyy): ");
+        LocalDate checkIn = LocalDate.parse(reader.next(),fmt);
+        System.out.print("Check-Out date (dd/MM/yyyy): ");
+        LocalDate checkOut = LocalDate.parse(reader.next(),fmt);
 
-        // Calculando a diferença em horas usando long
-        long differenceLong = endHourLong - startHourLong;
+        Reservation reservation = new Reservation(numbRoom,checkIn,checkOut);
 
-        // Imprimindo as diferenças
-        System.out.println("Diferença em horas (int): " + differenceInt);
-        System.out.println("Diferença em horas (long): " + differenceLong);
+        System.out.println(reservation);
+
+        System.out.println("\nEnter data to update the reservation: ");
+        System.out.print("Check-In date (dd/MM/yyyy): ");
+        LocalDate updatedCheckIn = LocalDate.parse(reader.next(),fmt);
+        System.out.print("Check-Out date (dd/MM/yyyy): ");
+        LocalDate updatedCheckOut = LocalDate.parse(reader.next(),fmt);
+
+
+        reservation.updateDates(updatedCheckIn,updatedCheckOut);
+
+        System.out.println(reservation);
+
+
+
+
+        reader.close();
     }
 }
