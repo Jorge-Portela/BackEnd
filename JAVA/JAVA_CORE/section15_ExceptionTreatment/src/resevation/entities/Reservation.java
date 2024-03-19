@@ -46,9 +46,16 @@ public class Reservation {
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-
-
-
+        sb.append("Room: ").append(getRoomNumber()).append(", ");
+        sb.append("check-In: ").append(getCheckIn()).append(", ");
+        sb.append("check-Out: ").append(getCheckOut()).append(", ");
+        sb.append(duration());
+        if(duration() < 2){
+            sb.append(" night");
+        }else{
+            sb.append(" nights");
+        }
+        
         return sb.toString();
     }
 
