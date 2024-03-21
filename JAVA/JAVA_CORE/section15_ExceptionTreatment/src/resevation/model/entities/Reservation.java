@@ -11,7 +11,7 @@ public class Reservation {
     private LocalDate checkOut;
 
 
-    public static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    public static DateTimeFormatter fmtc = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) {
         this.roomNumber = roomNumber;
@@ -48,8 +48,8 @@ public class Reservation {
         StringBuilder sb = new StringBuilder();
         sb.append("Reservation: ");
         sb.append("Room: ").append(getRoomNumber()).append(", ");
-        sb.append("check-In: ").append(fmt.format(getCheckIn())).append(", ");
-        sb.append("check-Out: ").append(fmt.format(getCheckOut())).append(", ");
+        sb.append("check-In: ").append(fmtc.format(getCheckIn())).append(", ");
+        sb.append("check-Out: ").append(fmtc.format(getCheckOut())).append(", ");
         sb.append(duration());
         if (duration() < 2) {
             sb.append(" night");
