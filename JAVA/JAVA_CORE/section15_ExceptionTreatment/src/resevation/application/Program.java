@@ -42,18 +42,12 @@ public class Program {
         System.out.print("Check-Out date (dd/MM/yyyy): ");
         LocalDate updatedCheckOut = LocalDate.parse(reader.next(), fmt);
 
-
-        while(!updatedCheckIn.isBefore(updatedCheckOut) && (updatedCheckIn.isBefore(LocalDate.now()))){
-            System.out.println("Error in reservation: The update of Check-out date must be equal or after check-in date" +
-                    " and checkIn date must be equal or after actual date");
-            System.out.print("Check-In date (dd/MM/yyyy): ");
-            updatedCheckIn = LocalDate.parse(reader.next(), fmt);
-            System.out.print("Check-Out date (dd/MM/yyyy): ");
-            updatedCheckOut = LocalDate.parse(reader.next(), fmt);
+        String error =  reservation.updateDates(updatedCheckIn, updatedCheckOut);
+        if(error != null){
+            System.out.println("Error in reservation " + error);
+        }else {
+            System.out.println(reservation);
         }
-        reservation.updateDates(updatedCheckIn, updatedCheckOut);
-
-        System.out.println(reservation);
 
 
         reader.close();
