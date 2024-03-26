@@ -9,7 +9,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
@@ -21,10 +21,9 @@ public class Program {
         LocalDate checkIn = LocalDate.parse(reader.next(), fmt);
         System.out.print("Check-Out date (dd/MM/yyyy): ");
         LocalDate checkOut = LocalDate.parse(reader.next(), fmt);
-        
+
         Reservation reservation = new Reservation(numbRoom, checkIn, checkOut);
         System.out.println(reservation);
-
 
 
         System.out.println("\nEnter data to update the reservation: ");
@@ -33,13 +32,10 @@ public class Program {
         System.out.print("Check-Out date (dd/MM/yyyy): ");
         LocalDate updatedCheckOut = LocalDate.parse(reader.next(), fmt);
 
-        String error =  reservation.updateDates(updatedCheckIn, updatedCheckOut);
-        if(error != null){
-            System.out.println("Error in reservation " + error);
-        }else {
-            System.out.println(reservation);
-        }
+        reservation.updateDates(updatedCheckIn, updatedCheckOut);
 
+        System.out.println(reservation);
+      
 
         reader.close();
     }
