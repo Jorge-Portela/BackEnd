@@ -21,16 +21,7 @@ public class Program {
         LocalDate checkIn = LocalDate.parse(reader.next(), fmt);
         System.out.print("Check-Out date (dd/MM/yyyy): ");
         LocalDate checkOut = LocalDate.parse(reader.next(), fmt);
-
-        while (!checkIn.isBefore(checkOut) || checkIn.isBefore(LocalDate.now())) {
-            System.out.println("Error in reservation: Check-out date must be equal or after check-in date" +
-                    " and checkIn date must be equal or after actual date");
-            System.out.println("Please, Enter the Reservation Dates:");
-            System.out.print("\nCheck-In date (dd/MM/yyyy): ");
-            checkIn = LocalDate.parse(reader.next(), fmt);
-            System.out.print("Check-Out date (dd/MM/yyyy): ");
-            checkOut = LocalDate.parse(reader.next(), fmt);
-        }
+        
         Reservation reservation = new Reservation(numbRoom, checkIn, checkOut);
         System.out.println(reservation);
 
