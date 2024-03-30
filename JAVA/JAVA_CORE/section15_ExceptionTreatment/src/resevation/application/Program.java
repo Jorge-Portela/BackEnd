@@ -38,8 +38,6 @@ public class Program {
             System.out.println(reservation);
 
 
-        } catch(IllegalArgumentException e){
-            System.out.println("Error in reservation: "+e.getMessage());
         }
 
         reader.close();
