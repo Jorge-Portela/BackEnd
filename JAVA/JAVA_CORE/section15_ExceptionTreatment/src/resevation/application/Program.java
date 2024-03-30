@@ -1,6 +1,7 @@
 package resevation.application;
 
 import resevation.model.entities.Reservation;
+import resevation.model.exceptions.DomainException;
 
 
 import java.time.LocalDate;
@@ -38,6 +39,8 @@ public class Program {
             System.out.println(reservation);
 
 
+        } catch(DomainException e) {
+            System.out.println("Error in reservation: " + e.getMessage());
         }
 
         reader.close();

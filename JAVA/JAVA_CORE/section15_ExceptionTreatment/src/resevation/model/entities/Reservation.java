@@ -1,5 +1,7 @@
 package resevation.model.entities;
 
+import resevation.model.exceptions.DomainException;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
@@ -39,14 +41,14 @@ public class Reservation {
         return ChronoUnit.DAYS.between(getCheckIn(), getCheckOut());
     }
 
-    public  void updateDates(LocalDate updatedCheckIn, LocalDate updatedCheckOut) {
+    public  void updateDates(LocalDate updatedCheckIn, LocalDate updatedCheckOut) throws DomainException {
         if(!updatedCheckIn.isBefore(updatedCheckOut) || updatedCheckOut.isBefore(LocalDate.now())){
-             throw new IllegalArgumentException("Reservation dates for updates must be future dates");
+             throw new DomainException("Reservation dates for updates must be future dates");
         } if(!updatedCheckOut.isAfter(updatedCheckIn)){
-            throw new IllegalArgumentException("Reservation dates Check-Out date must be after Check-In");
+            throw new DomainException("Reservation dates Check-Out date must be after Check-In");
         }
-        this.checkIn = checkIn;
-        this.checkOut = checkOut;
+        this.checkIn = updatedCheckIn;
+        this.checkOut = updatedCheckOut;
     }
 
     public String toString() {
