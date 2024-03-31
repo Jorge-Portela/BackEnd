@@ -15,7 +15,10 @@ public class Reservation {
 
     public static DateTimeFormatter fmtc = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) {
+    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) throws DomainException {
+        if(!checkOut.isAfter(checkIn)){
+            throw new DomainException("Reservation dates Check-Out date must be after Check-In");
+        }
         this.roomNumber = roomNumber;
         this.checkIn = checkin;
         this.checkOut = checkout;
@@ -41,14 +44,14 @@ public class Reservation {
         return ChronoUnit.DAYS.between(getCheckIn(), getCheckOut());
     }
 
-    public  void updateDates(LocalDate updatedCheckIn, LocalDate updatedCheckOut) throws DomainException {
-        if(!updatedCheckIn.isBefore(updatedCheckOut) || updatedCheckOut.isBefore(LocalDate.now())){
+    public  void updateDates(LocalDate checkIn, LocalDate checkOut) throws DomainException {
+        if(!checkIn.isBefore(checkOut) || checkOut.isBefore(LocalDate.now())){
              throw new DomainException("Reservation dates for updates must be future dates");
-        } if(!updatedCheckOut.isAfter(updatedCheckIn)){
+        } if(!checkOut.isAfter(checkIn)){
             throw new DomainException("Reservation dates Check-Out date must be after Check-In");
         }
-        this.checkIn = updatedCheckIn;
-        this.checkOut = updatedCheckOut;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
     }
 
     public String toString() {
