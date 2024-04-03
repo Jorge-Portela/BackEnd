@@ -30,11 +30,11 @@ public class Program {
 
             System.out.println("\nEnter data to update the reservation: ");
             System.out.print("Check-In date (dd/MM/yyyy): ");
-            LocalDate updatedCheckIn = LocalDate.parse(reader.next(), fmt);
+            checkIn = LocalDate.parse(reader.next(), fmt);
             System.out.print("Check-Out date (dd/MM/yyyy): ");
-            LocalDate updatedCheckOut = LocalDate.parse(reader.next(), fmt);
+            checkOut = LocalDate.parse(reader.next(), fmt);
 
-            reservation.updateDates(updatedCheckIn, updatedCheckOut);
+            reservation.updateDates(checkIn, checkOut);
 
             System.out.println(reservation);
 
