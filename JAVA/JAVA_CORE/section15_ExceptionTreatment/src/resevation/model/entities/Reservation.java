@@ -15,7 +15,7 @@ public class Reservation {
 
     public static DateTimeFormatter fmtc = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout) throws DomainException {
+    public Reservation(Integer roomNumber, LocalDate checkin, LocalDate checkout)  {
         if(!checkOut.isAfter(checkIn)){
             throw new DomainException("Reservation dates Check-Out date must be after Check-In");
         }
@@ -44,7 +44,7 @@ public class Reservation {
         return ChronoUnit.DAYS.between(getCheckIn(), getCheckOut());
     }
 
-    public  void updateDates(LocalDate checkIn, LocalDate checkOut) throws DomainException {
+    public  void updateDates(LocalDate checkIn, LocalDate checkOut) {
         if(!checkIn.isBefore(checkOut) || checkOut.isBefore(LocalDate.now())){
              throw new DomainException("Reservation dates for updates must be future dates");
         } if(!checkOut.isAfter(checkIn)){
