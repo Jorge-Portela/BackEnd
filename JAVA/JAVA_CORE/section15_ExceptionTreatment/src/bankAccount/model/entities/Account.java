@@ -17,9 +17,7 @@ public class Account {
         return number;
     }
 
-    public void setNumber(Integer number) {
-        this.number = number;
-    }
+    
 
     public String getHolder() {
         return holder;
