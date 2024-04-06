@@ -6,6 +6,8 @@ public class Account {
     private Double balance;
     private Double withdrawLimit;
 
+    public Account(){}
+
     public Account(Integer number, String holder, Double balance, Double withdraw) {
         this.number = number;
         this.holder = holder;
@@ -17,7 +19,7 @@ public class Account {
         return number;
     }
 
-    
+
 
     public String getHolder() {
         return holder;
@@ -46,6 +48,13 @@ public class Account {
 
     public void withdraw(Double amount){
         this.balance -= amount;
+    }
+
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("New balance: $ %.2f",this.getBalance()));
+
+        return sb.toString();
     }
 
 }
