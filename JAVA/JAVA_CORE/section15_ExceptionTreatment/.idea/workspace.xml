@@ -21,6 +21,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jorge-Portela"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2406332c-ada9-4967-b511-90c427147643" />
+        <option name="url" value="git@github.com:Jorge-Portela/BackEnd.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -79,7 +93,7 @@
       <workItem from="1712320346574" duration="1271000" />
       <workItem from="1712326959351" duration="1199000" />
       <workItem from="1712380630410" duration="896000" />
-      <workItem from="1712410491041" duration="5027000" />
+      <workItem from="1712410491041" duration="7059000" />
     </task>
     <servers />
   </component>

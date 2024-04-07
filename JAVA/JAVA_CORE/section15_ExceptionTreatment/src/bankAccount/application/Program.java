@@ -1,6 +1,7 @@
 package bankAccount.application;
 
 import bankAccount.model.entities.Account;
+import resevation.model.exceptions.DomainException;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,23 +11,34 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        System.out.println("Enter account data");
-        System.out.print("Number: ");
-        int number = reader.nextInt();
-        reader.nextLine();
-        System.out.print("Holder: ");
-        String name = reader.nextLine();
-        System.out.print("Initial balance: ");
-        double initBalance = reader.nextDouble();
-        System.out.print("Withdraw limit: ");
-        double withLimit = reader.nextDouble();
+        try{
+            System.out.println("Enter account data");
+            System.out.print("Number: ");
+            int number = reader.nextInt();
+            reader.nextLine();
+            System.out.print("Holder: ");
+            String name = reader.nextLine();
+            System.out.print("Initial balance: ");
+            double initBalance = reader.nextDouble();
+            System.out.print("Withdraw limit: ");
+            double withLimit = reader.nextDouble();
 
-        Account acc1 = new Account(number,name,initBalance,withLimit);
+            Account acc1 = new Account(number,name,initBalance,withLimit);
 
-        System.out.print("\nEnter amount for withdraw: ");
-        acc1.withdraw(reader.nextDouble());
+            System.out.print("\nEnter amount for withdraw: ");
+            acc1.withdraw(reader.nextDouble());
 
-        System.out.println(acc1);
+            System.out.println(acc1);
+        }
+        catch(DomainException e){
+            System.out.println("Withdraw: " +e.getMessage());
+            System.exit(0);
+        }
+        /*catch(RuntimeException e){
+            System.out.println("Unexpected error");
+            System.exit(0);
+        }*/
+
 
         reader.close();
     }
