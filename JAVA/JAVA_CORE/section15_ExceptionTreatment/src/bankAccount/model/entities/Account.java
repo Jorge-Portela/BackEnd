@@ -22,9 +22,7 @@ public class Account {
     public Integer getNumber() {
         return number;
     }
-
-
-
+    
     public String getHolder() {
         return holder;
     }

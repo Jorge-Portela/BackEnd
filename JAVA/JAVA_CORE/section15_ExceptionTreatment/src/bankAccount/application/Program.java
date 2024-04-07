@@ -32,12 +32,12 @@ public class Program {
         }
         catch(DomainException e){
             System.out.println("Withdraw: " +e.getMessage());
-            System.exit(0);
+           // System.exit(0);
         }
-        /*catch(RuntimeException e){
+        catch(RuntimeException e){
             System.out.println("Unexpected error");
-            System.exit(0);
-        }*/
+            //System.exit(0);
+        }
 
 
         reader.close();
