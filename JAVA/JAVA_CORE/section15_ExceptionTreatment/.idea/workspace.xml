@@ -27,12 +27,12 @@
     &quot;assignee&quot;: &quot;Jorge-Portela&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Jorge-Portela/BackEnd.git",
-    "accountId": "2406332c-ada9-4967-b511-90c427147643"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Jorge-Portela/BackEnd.git&quot;,
+    &quot;accountId&quot;: &quot;2406332c-ada9-4967-b511-90c427147643&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -104,7 +104,8 @@
       <workItem from="1712380630410" duration="896000" />
       <workItem from="1712410491041" duration="7059000" />
       <workItem from="1712503737264" duration="696000" />
-      <workItem from="1712523527792" duration="4703000" />
+      <workItem from="1712523527792" duration="5907000" />
+      <workItem from="1712603522150" duration="342000" />
     </task>
     <servers />
   </component>
