@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="" />
+    <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cheers_challenge/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +107,7 @@
       <workItem from="1712410491041" duration="7059000" />
       <workItem from="1712503737264" duration="696000" />
       <workItem from="1712523527792" duration="5907000" />
-      <workItem from="1712603522150" duration="342000" />
+      <workItem from="1712603522150" duration="412000" />
     </task>
     <servers />
   </component>
