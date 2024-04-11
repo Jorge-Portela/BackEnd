@@ -1,4 +1,4 @@
-package workingwithfiles.application;
+package workingwithfiles.example1.application;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        File file = new File("/home/jorge-portela/Documents/Cursos/JAVA _Nelio/chap_17/example.txt");
+        File file = new File("path");
         Scanner reader = null;
         try {
             reader = new Scanner(file);
