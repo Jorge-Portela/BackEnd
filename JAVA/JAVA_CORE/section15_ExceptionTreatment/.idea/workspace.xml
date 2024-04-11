@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/cheers_challenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cheers_challenge/src/application/Program.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section17_WorkingWithFiles/src/workingwithfiles/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/chess_challenge",
+    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section15_ExceptionTreatment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +110,7 @@
       <workItem from="1712603522150" duration="412000" />
       <workItem from="1712692584401" duration="4003000" />
       <workItem from="1712711773015" duration="55000" />
+      <workItem from="1712873245112" duration="283000" />
     </task>
     <servers />
   </component>
