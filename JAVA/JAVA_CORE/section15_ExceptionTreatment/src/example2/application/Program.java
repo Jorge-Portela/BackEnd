@@ -9,8 +9,7 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        File file = new File("/home/jorge-portela/Documents/test_exeption/exemplo.txt");
-
+        File file = new File("path/to/file.txt");
 
         Scanner reader = null;
 
