@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../section17_WorkingWithFiles/src/workingwithfiles/application/Program.java" afterDir="false" />
-    </list>
+    <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section15_ExceptionTreatment",
+    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section17_WorkingWithFiles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,6 +109,7 @@
       <workItem from="1712692584401" duration="4003000" />
       <workItem from="1712711773015" duration="55000" />
       <workItem from="1712873245112" duration="283000" />
+      <workItem from="1712969202674" duration="136000" />
     </task>
     <servers />
   </component>
