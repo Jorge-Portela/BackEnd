@@ -15,6 +15,14 @@ public class Program {
             while (line != null) {
                 System.out.println(line);
                 line = br.readLine();
+
+
+
+
+
+
+
+
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
