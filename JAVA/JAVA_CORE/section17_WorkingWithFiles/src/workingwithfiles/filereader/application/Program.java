@@ -20,11 +20,13 @@ public class Program {
         File sourceFile = new File(sourceFileStr);
         String sourceFolderStr = sourceFile.getParent();
 
-        boolean sucess = new File(sourceFolderStr + "path").mkdir();
+        boolean sucess = new File(sourceFolderStr + "/out").mkdir();
 
-        String targetFileStr = sourceFolderStr + "path";
+        String targetFileStr = sourceFolderStr + "/out/summary.csv";
 
         try(BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))){
+
+
 
             String itemCsv = br.readLine();
             while(itemCsv != null){
