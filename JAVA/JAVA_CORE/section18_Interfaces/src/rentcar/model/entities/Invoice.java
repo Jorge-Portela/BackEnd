@@ -29,8 +29,8 @@ public class Invoice {
         this.tax = tax;
     }
 
-    public Double totalPayment() {
-        return tax * basicPayment;
+    public Double getTotalPayment() {
+        return getBasicPayment() * getTax();
     }
 
 
