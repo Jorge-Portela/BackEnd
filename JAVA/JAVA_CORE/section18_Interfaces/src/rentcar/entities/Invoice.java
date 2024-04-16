@@ -5,6 +5,7 @@ public class Invoice {
     private Double tax;
     private Double totalPayment;
 
+    public Invoice(){}
 
     public Invoice(Double basicPayment, Double tax, Double totalPayment) {
         this.basicPayment = basicPayment;
