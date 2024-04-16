@@ -1,16 +1,16 @@
-package rentcar.entities;
+package rentcar.model.entities;
 
 public class Invoice {
     private Double basicPayment;
     private Double tax;
-    private Double totalPayment;
+
 
     public Invoice(){}
 
-    public Invoice(Double basicPayment, Double tax, Double totalPayment) {
+    public Invoice(Double basicPayment, Double tax) {
         this.basicPayment = basicPayment;
         this.tax = tax;
-        this.totalPayment = totalPayment;
+
     }
 
     public Double getBasicPayment() {
@@ -29,11 +29,9 @@ public class Invoice {
         this.tax = tax;
     }
 
-    public Double getTotalPayment() {
-        return totalPayment;
+    public Double totalPayment() {
+        return tax * basicPayment;
     }
 
-    public void setTotalPayment(Double totalPayment) {
-        this.totalPayment = totalPayment;
-    }
+
 }
