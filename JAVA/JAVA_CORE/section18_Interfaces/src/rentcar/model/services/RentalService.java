@@ -15,7 +15,7 @@ public class RentalService {
         this.pricePerDay = pricePerDay;
         this.taxService = taxService;
     }
-    
+
     public void processInvoice(CarRental carRental) {
         carRental.setInvoice(new Invoice(50.0, 10.0));
     }

@@ -3,6 +3,7 @@ package rentcar.application;
 import rentcar.model.entities.CarRental;
 import rentcar.model.entities.Vehicle;
 import rentcar.model.services.BrazilTaxService;
+import rentcar.model.services.RentalService;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
@@ -13,7 +14,7 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
-    /*
+
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
         System.out.println("Enter the rentals data: ");
@@ -24,13 +25,14 @@ public class Program {
         System.out.println("Return (dd/MM/yyyy hh:mm): ");
         LocalDateTime finish = LocalDateTime.parse(reader.nextLine(),fmt);
 
-        CarRental carRental = new CarRental(start,finish,new Vehicle(carModel);
+        CarRental carRental = new CarRental(start,finish,new Vehicle(carModel));
 
-*/
-        BrazilTaxService bt = new BrazilTaxService();
+        System.out.print("Enter the price per hour: ");
+        double pricePerHour = reader.nextDouble();
+        System.out.println("Enter the price per day: ");
+        double pricePerDay = reader.nextDouble();
 
-        System.out.println(bt.tax(390.0));
-
+        RentalService rentalService = new RentalService(pricePerHour,pricePerHour,new BrazilTaxService());
 
         reader.close();
     }
