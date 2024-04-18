@@ -11,9 +11,11 @@ public class CarRental {
 
     public CarRental() {}
 
-    public CarRental(LocalDateTime start, LocalDateTime finish) {
+    public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle, Invoice invoice) {
         this.start = start;
         this.finish = finish;
+        this.vehicle = vehicle;
+        this.invoice = invoice;
     }
 
     public LocalDateTime getStart() {

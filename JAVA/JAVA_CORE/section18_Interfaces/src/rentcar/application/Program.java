@@ -1,15 +1,34 @@
 package rentcar.application;
 
+import rentcar.model.entities.CarRental;
+import rentcar.model.entities.Vehicle;
+
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
+
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+
+        System.out.println("Enter the rentals data: ");
+        System.out.println("Car Model: ");
+        String carModel = reader.nextLine();
+        System.out.println("Pick up (dd/MM/yyyy hh:mm): ");
+        LocalDateTime start = LocalDateTime.parse(reader.nextLine(),fmt);
+        System.out.println("Return (dd/MM/yyyy hh:mm): ");
+        LocalDateTime finish = LocalDateTime.parse(reader.nextLine(),fmt);
+
+        CarRental carRental = new CarRental(start,finish,new Vehicle(carModel);
 
 
 
-        sc.close();
+
+
+        reader.close();
     }
 }
