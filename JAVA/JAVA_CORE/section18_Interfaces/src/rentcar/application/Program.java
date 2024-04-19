@@ -32,7 +32,7 @@ public class Program {
         System.out.println("Enter the price per day: ");
         double pricePerDay = reader.nextDouble();
 
-        RentalService rentalService = new RentalService(pricePerHour,pricePerHour,new BrazilTaxService());
+        RentalService rentalService = new RentalService(pricePerHour,pricePerDay,new BrazilTaxService());
 
         reader.close();
     }
