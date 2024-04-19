@@ -1,6 +1,6 @@
 package rentcar.model.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService{
 
     public Double tax(Double amount) {
         if (amount <= 100) {
