@@ -22,11 +22,11 @@ public class Program {
         LocalDate date = LocalDate.parse(reader.next(),fmt);
         System.out.print("Contract value: ");
         double contractValue = reader.nextDouble();
-        System.out.print("Enter number of installments: ");
-        int installments = reader.nextInt();
 
         Contract contract = new Contract(number, date, contractValue);
 
+        System.out.print("Enter number of installments: ");
+        int installments = reader.nextInt();
 
 
         reader.close();
