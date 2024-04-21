@@ -18,6 +18,7 @@ public class Program {
         System.out.println("Enter contract data");
         System.out.print("Number: ");
         int number = reader.nextInt();
+
         System.out.print("Date (dd/MM/yyyy): ");
         LocalDate date = LocalDate.parse(reader.next(),fmt);
         System.out.print("Contract value: ");
@@ -27,7 +28,6 @@ public class Program {
 
         System.out.print("Enter number of installments: ");
         int installments = reader.nextInt();
-
 
         reader.close();
 

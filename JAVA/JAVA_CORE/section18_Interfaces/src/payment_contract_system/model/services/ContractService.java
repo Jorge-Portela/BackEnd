@@ -4,6 +4,14 @@ import payment_contract_system.entities.Contract;
 
 public class ContractService {
 
-    public void processContract(Contract contract, Integer months){}
+    private OnlinePaymentService onlinePaymentService;
+
+    public ContractService(OnlinePaymentService onlinePaymentService) {
+        this.onlinePaymentService = onlinePaymentService;
+
+    }
+    public void processContract(Contract contract, int months){
+        
+    }
 
 }
