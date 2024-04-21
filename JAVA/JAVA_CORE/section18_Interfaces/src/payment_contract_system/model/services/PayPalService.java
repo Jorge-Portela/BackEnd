@@ -6,7 +6,7 @@ public class PayPalService implements OnlinePaymentService{
         return amount * 0.02;
     }
 
-    public Double interest(Double amount) {
+    public Double interest(Double amount, int months) {
         return amount * 0.01;
     }
 }
