@@ -1,6 +1,9 @@
 package payment_contract_system.application;
 
 import payment_contract_system.entities.Contract;
+import payment_contract_system.entities.Installment;
+import payment_contract_system.model.services.ContractService;
+import payment_contract_system.model.services.PayPalService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -28,6 +31,16 @@ public class Program {
 
         System.out.print("Enter number of installments: ");
         int installments = reader.nextInt();
+
+        ContractService contractService = new ContractService(new PayPalService());
+        contractService.processContract(contract,installments);
+
+        System.out.println("\n===============================\n");
+
+        System.out.println("Installments: ");
+        for(Installment installment : contract.getInstallments()){
+            System.out.println(installment);
+        }
 
         reader.close();
 
