@@ -18,29 +18,37 @@ public class Program {
 
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        System.out.println("Enter contract data");
-        System.out.print("Number: ");
-        int number = reader.nextInt();
+        try {
+            System.out.println("Enter contract data");
+            System.out.print("Number: ");
+            int number = reader.nextInt();
 
-        System.out.print("Date (dd/MM/yyyy): ");
-        LocalDate date = LocalDate.parse(reader.next(),fmt);
-        System.out.print("Contract value: ");
-        double contractValue = reader.nextDouble();
+            System.out.print("Date (dd/MM/yyyy): ");
+            LocalDate date = LocalDate.parse(reader.next(),fmt);
+            System.out.print("Contract value: ");
+            double contractValue = reader.nextDouble();
 
-        Contract contract = new Contract(number, date, contractValue);
+            Contract contract = new Contract(number, date, contractValue);
 
-        System.out.print("Enter number of installments: ");
-        int installments = reader.nextInt();
+            System.out.print("Enter number of installments: ");
+            int installments = reader.nextInt();
 
-        ContractService contractService = new ContractService(new PayPalService());
-        contractService.processContract(contract,installments);
+            ContractService contractService = new ContractService(new PayPalService());
+            contractService.processContract(contract,installments);
 
-        System.out.println("\n===============================\n");
+            System.out.println("\n===============================\n");
 
-        System.out.println("Installments: ");
-        for(Installment installment : contract.getInstallments()){
-            System.out.println(installment);
+            System.out.println("Installments: ");
+            for(Installment installment : contract.getInstallments()){
+                System.out.println(installment);
+            }
+
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+            System.exit(0);
         }
+
+
 
         reader.close();
 
