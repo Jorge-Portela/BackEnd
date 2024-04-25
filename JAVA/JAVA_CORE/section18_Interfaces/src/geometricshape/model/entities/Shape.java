@@ -1,4 +1,4 @@
-package geometric.model.entities;
+package geometricshape.model.entities;
 
 public interface Shape {
 

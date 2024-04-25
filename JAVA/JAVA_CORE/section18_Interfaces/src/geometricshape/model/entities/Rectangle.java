@@ -1,8 +1,8 @@
-package geometric.model.entities;
+package geometricshape.model.entities;
 
-import geometric.model.enums.Color;
+import geometricshape.model.enums.Color;
 
-public class Rectangle extends Shape{
+public class Rectangle extends AbstractShape{
 
     private Double width;
     private Double height;

@@ -1,10 +1,10 @@
-package geometric.model.entities;
+package geometricshape.model.entities;
 
 
-import geometric.model.enums.Color;
+import geometricshape.model.enums.Color;
 
 
-public class Circle extends Shape {
+public class Circle extends AbstractShape {
 
     private Double radius;
 

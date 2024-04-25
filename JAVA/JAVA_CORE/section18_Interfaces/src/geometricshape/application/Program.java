@@ -1,9 +1,10 @@
-package geometric.application;
+package geometricshape.application;
 
-import geometric.model.entities.Circle;
-import geometric.model.entities.Rectangle;
-import geometric.model.entities.Shape;
-import geometric.model.enums.Color;
+import geometricshape.model.entities.Circle;
+import geometricshape.model.entities.Rectangle;
+import geometricshape.model.entities.Shape;
+import geometricshape.model.enums.Color;
+import geometricshape.model.entities.AbstractShape;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -13,8 +14,8 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        Shape s1 = new Circle(Color.BLACK, 2.0);
-        Shape s2 = new Rectangle(Color.WHITE, 3.0, 4.0);
+        AbstractShape s1 = new Circle(Color.BLACK, 2.0);
+        AbstractShape s2 = new Rectangle(Color.WHITE, 3.0, 4.0);
 
         System.out.println("Circle color: " + s1.getColor());
         System.out.println("Circle area: " + String.format("%.3f", s1.area()));

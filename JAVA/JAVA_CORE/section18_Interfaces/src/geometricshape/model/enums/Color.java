@@ -1,4 +1,4 @@
-package geometric.model.enums;
+package geometricshape.model.enums;
 
 public enum Color {
     BLACK,
