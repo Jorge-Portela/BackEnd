@@ -7,7 +7,7 @@ public abstract class Shape {
 
     private Color color;
 
-    private Shape(Color color) {
+    public Shape(Color color) {
         this.color = color;
     }
 
