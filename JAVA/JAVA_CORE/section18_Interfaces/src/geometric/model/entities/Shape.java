@@ -1,5 +1,6 @@
 package geometric.model.entities;
 
+import geometric.model.enums.Color;
 
 
 public abstract class Shape {
