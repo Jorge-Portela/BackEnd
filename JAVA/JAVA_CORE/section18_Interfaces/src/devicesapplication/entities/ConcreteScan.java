@@ -1,8 +1,8 @@
 package devicesapplication.entities;
 
-public class Scan extends Device {
+public class ConcreteScan extends Device {
 
-    public Scan(String serialNumber){
+    public ConcreteScan(String serialNumber){
         super(serialNumber);
     }
 

@@ -2,7 +2,7 @@ package devicesapplication.application;
 
 import java.util.Locale;
 import devicesapplication.entities.ConcretePrinter;
-import devicesapplication.entities.Scan;
+import devicesapplication.entities.ConcreteScan;
 
 public class Program {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Program {
         p.processDoc("My Letter");
         p.print("My Letter");
 
-        Scan s = new Scan("2003");
+        ConcreteScan s = new ConcreteScan("2003");
         s.processDoc("My Email");
         System.out.println("Scan result: " + s.scan());
 
