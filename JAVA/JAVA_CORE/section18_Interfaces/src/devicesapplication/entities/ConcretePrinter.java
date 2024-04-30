@@ -1,8 +1,8 @@
 package devicesapplication.entities;
 
-public class Printer extends Device {
+public class ConcretePrinter extends Device {
 
-    public Printer(String serialNumber){
+    public ConcretePrinter(String serialNumber){
         super(serialNumber);
     }
 
