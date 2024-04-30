@@ -1,5 +1,5 @@
 package devicesapplication.entities;
 
 public interface Printer {
-    String print();
+    void print(String doc);
 }
