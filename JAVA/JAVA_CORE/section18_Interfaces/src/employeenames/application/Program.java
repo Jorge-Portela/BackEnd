@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args){
 
         List<String> list = new ArrayList<>();
-        String path = "";
+        String path = "/";
 
         try(BufferedReader br = new BufferedReader(new FileReader(path))){
 
