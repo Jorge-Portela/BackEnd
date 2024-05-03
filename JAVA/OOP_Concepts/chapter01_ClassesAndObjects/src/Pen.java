@@ -21,4 +21,12 @@ public class Pen {
             return false;
         }
     }
+
+    boolean getUncover(){
+        if(!cover){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
