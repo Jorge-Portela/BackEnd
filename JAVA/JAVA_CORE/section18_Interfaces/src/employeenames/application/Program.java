@@ -11,7 +11,7 @@ public class Program {
     public static void main(String[] args){
 
         List<Employee> list = new ArrayList<>();
-        String path = " /";
+        String path = " / ";
 
         try(BufferedReader br = new BufferedReader(new FileReader(path))){
 
@@ -23,7 +23,7 @@ public class Program {
             }
             Collections.sort(list);
             for (Employee emp : list){
-                System.out.println(emp.getName() + " " + emp.getSalary());
+                System.out.println(emp.getName() + " - $ " + String.format("%.2f",emp.getSalary()));
             }
         } catch (IOException e){
             System.out.println("Error: " + e.getMessage());
