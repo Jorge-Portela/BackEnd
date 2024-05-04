@@ -14,6 +14,9 @@ public class Program {
 
         System.out.println("The Pen need to be Uncovered ? True = Yes , False = No. Answer: "+pen1.getUncover());
 
+        System.out.println();
+
+        pen1.status();
 
 
     }
