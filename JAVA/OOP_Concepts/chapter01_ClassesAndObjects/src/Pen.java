@@ -15,10 +15,10 @@ public class Pen {
     }
 
     void isScribble(){
-        if(cover){
-            System.out.println("ERROR");
+        if(this.getCover() == true){
+            System.out.println("ERROR! The Pen is currently covered.");
         }else{
-            System.out.println("Scribble");
+            System.out.println("I am Scribble");
         }
     }
 
