@@ -14,7 +14,7 @@ public class UsaInterestService {
 
     public double payment(double amount, int month){
         if(month < 1){
-            throw new IllegalArgumentException("MOnth must be greater than 0 (zero)");
+            throw new IllegalArgumentException("Month must be greater than 0 (zero)");
         }
         return amount * Math.pow(1.0 + interestRate/100, month );
     }
