@@ -2,6 +2,7 @@ package loan_service.program;
 
 
 import loan_service.entities.BrazilInterestService;
+import loan_service.entities.UsaInterestService;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -16,8 +17,8 @@ public class Program {
         System.out.print("Months: ");
         int month = reader.nextInt();
 
-        BrazilInterestService brist = new BrazilInterestService(2.0);
-        double payment = brist.payment(amount, month);
+        UsaInterestService usaist = new UsaInterestService(1.0);
+        double payment = usaist.payment(amount, month);
 
         System.out.println("Payment after " + month + " months:");
         System.out.println(String.format("R$ %.2f",payment));
