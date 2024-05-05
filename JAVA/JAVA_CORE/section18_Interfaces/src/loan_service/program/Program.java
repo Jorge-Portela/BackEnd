@@ -14,7 +14,7 @@ public class Program {
         System.out.println("Months: ");
         int months = reader.nextInt();
 
-        
+
 
         reader.close();
 
