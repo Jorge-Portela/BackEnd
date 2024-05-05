@@ -1,6 +1,6 @@
 package loan_service.entities;
 
-public class UsaInterestService {
+public class UsaInterestService implements InterestService{
 
     private double interestRate;
 
@@ -8,14 +8,8 @@ public class UsaInterestService {
         this.interestRate = interestRate;
     }
 
+    @Override
     public double getInterestRate(){
         return interestRate;
-    }
-
-    public double payment(double amount, int month){
-        if(month < 1){
-            throw new IllegalArgumentException("Month must be greater than 0 (zero)");
-        }
-        return amount * Math.pow(1.0 + interestRate/100, month );
     }
 }
