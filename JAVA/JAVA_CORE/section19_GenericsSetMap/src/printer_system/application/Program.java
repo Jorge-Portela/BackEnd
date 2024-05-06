@@ -10,20 +10,24 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner reader = new Scanner(System.in);
 
-        PrintService ps = new PrintService();
+        PrintService<String> pss = new PrintService<>();
 
         System.out.print("How many values? ");
         int n = reader.nextInt();
 
-        for(int i = 0; i < n; i++){
-            System.out.print("Enter the value "+(i+1)+": ");
-            int value = reader.nextInt();
-            ps.addValue(value);
+        reader.nextLine();
+
+        for(int i = 1; i <= n; i++){
+            System.out.print("Enter the value "+(i)+": ");
+            String value = reader.nextLine();
+            pss.addValue(value);
         }
 
-        System.out.print("The values entered: ");
-        ps.print();
-        System.out.println("First: " + ps.first());
+        System.out.print("\nValues entered: ");
+        pss.print();
+
+        System.out.print("\nFirst value entered: ");
+        pss.first();
 
         reader.close();
     }
