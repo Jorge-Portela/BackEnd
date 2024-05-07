@@ -28,7 +28,7 @@ public class Product implements Comparable<Product> {
 
     @Override
     public String toString(){
-        return this.getName() + ", "+String.format("%.2f", this.getPrice());
+        return this.getName() + ", $ "+String.format("%.2f", this.getPrice());
     }
 
     @Override
