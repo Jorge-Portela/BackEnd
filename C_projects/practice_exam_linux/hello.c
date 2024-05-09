@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-	printf("hello world.com.br\n");
-   printf("see you on lesson 1\n");
-	return 0;
+  int ret = 0;
+ 
+  ret = printf("hello world.com.br\n");
+  printf("O retorno do prinf anterior, %d\n",ret);
+  return 0;
 }
