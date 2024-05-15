@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-  char c = 255;
+  char c;
  
-  printf("O tamanho do tipo char eh: %lu\n", sizeof (char)); 
+  printf("O tamanho de c (char): %lu bytes / %lu bits\n", sizeof c, sizeof c * 8 ); 
  
   return 0;
 }
