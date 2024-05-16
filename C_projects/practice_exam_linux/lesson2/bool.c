@@ -8,5 +8,10 @@ int main(void){
   b = true;
   b = false;
 
+  printf("Size of b (bool) is: %lu\n", sizeof b);
+
+  b= false;
+  printf("The value of b is: %i\n",b);
+
   return 0;
 }
