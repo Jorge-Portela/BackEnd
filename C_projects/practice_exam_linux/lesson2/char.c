@@ -1,11 +1,12 @@
-#include <stdio.h>
+include <stdio.h>
 
 int main(void){
- unsigned   char c;
+  unsigned   char c;
  
   printf("O tamanho de c (char): %lu bytes / %lu bits\n", sizeof c, sizeof c * 8 ); 
 
-  c = 255;
+  c =127;  
+
   printf("Valor de c: %i\n",c);
 
   return 0;
