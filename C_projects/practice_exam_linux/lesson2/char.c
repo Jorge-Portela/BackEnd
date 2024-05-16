@@ -5,7 +5,7 @@ int main(void){
  
   printf("O tamanho de c (char): %lu bytes / %lu bits\n", sizeof c, sizeof c * 8 ); 
 
-  c = 10;
+  c = 255;
   printf("Valor de c: %i\n",c);
 
   return 0;
