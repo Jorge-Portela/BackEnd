@@ -10,7 +10,7 @@ int main(void){
 
   printf("Size of b (bool) is: %lu\n", sizeof b);
 
-  b= false;
+  b = -10;
   printf("The value of b is: %i\n",b);
 
   return 0;
