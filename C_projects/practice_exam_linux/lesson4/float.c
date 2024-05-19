@@ -7,7 +7,7 @@ int main(void){
   float f  = 1;
 
   printf("The size of f (float) is: %zu bytes / %zu bits\n", sizeof f, sizeof f * 8);
-  printf("Value of f: %f\n",f);
+  printf("Value of f: %.2f\n",f);
 
   return 0;
 }
