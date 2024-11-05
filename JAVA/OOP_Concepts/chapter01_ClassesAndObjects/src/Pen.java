@@ -23,18 +23,10 @@ public class Pen {
     }
 
     boolean getCover(){
-        if(cover){
-            return true;
-        }else {
-            return false;
-        }
+       return cover;
     }
 
     boolean getUncover(){
-        if(!cover){
-            return true;
-        }else{
-            return false;
-        }
+        return !cover;
     }
 }
