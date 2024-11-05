@@ -16,7 +16,7 @@ public class Pen {
 
     void isScribble(){
         if(this.getCover()){
-            System.out.println("ERROR! The Pen is currently covered.");
+            System.out.println("CAUTION! The Pen is currently covered.");
         }else{
             System.out.println("I am Scribble");
         }
