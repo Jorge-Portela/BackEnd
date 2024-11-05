@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jorge-Portela&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Jorge-Portela/BackEnd.git&quot;,
+    &quot;accountId&quot;: &quot;2406332c-ada9-4967-b511-90c427147643&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2dqWbfLQwuC3i8VTHobjaKEy2ig" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section17_WorkingWithFiles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="385ad364-8120-48a5-aa56-c8347ea2e8c6" name="Changes" comment="" />
+      <created>1710736163073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710736163073</updated>
+      <workItem from="1710736164110" duration="7593000" />
+      <workItem from="1710795018142" duration="10068000" />
+      <workItem from="1710961050371" duration="122000" />
+      <workItem from="1711030912140" duration="349000" />
+      <workItem from="1711144360078" duration="5725000" />
+      <workItem from="1711183376970" duration="628000" />
+      <workItem from="1711269599054" duration="1657000" />
+      <workItem from="1711328404320" duration="79000" />
+      <workItem from="1711418977618" duration="1130000" />
+      <workItem from="1711487372717" duration="824000" />
+      <workItem from="1711584252287" duration="656000" />
+      <workItem from="1711662816788" duration="73000" />
+      <workItem from="1711749557179" duration="2926000" />
+      <workItem from="1711839231105" duration="601000" />
+      <workItem from="1711922788641" duration="1064000" />
+      <workItem from="1712013206879" duration="347000" />
+      <workItem from="1712190309474" duration="185000" />
+      <workItem from="1712266894963" duration="565000" />
+      <workItem from="1712320346574" duration="1271000" />
+      <workItem from="1712326959351" duration="1199000" />
+      <workItem from="1712380630410" duration="896000" />
+      <workItem from="1712410491041" duration="7059000" />
+      <workItem from="1712503737264" duration="696000" />
+      <workItem from="1712523527792" duration="5907000" />
+      <workItem from="1712603522150" duration="412000" />
+      <workItem from="1712692584401" duration="4003000" />
+      <workItem from="1712711773015" duration="55000" />
+      <workItem from="1712873245112" duration="283000" />
+      <workItem from="1712969202674" duration="136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

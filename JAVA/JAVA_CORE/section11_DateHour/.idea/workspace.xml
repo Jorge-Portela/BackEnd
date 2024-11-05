@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33cd69c6-be24-46ed-84a7-d340a33a786f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section13_EnumAndComposition/src/clientOrder/application/Program.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cnSWSkgH3bmewnWRNObIEDbAPA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program.executor": "Run",
+    "Application.exampleExercise.localToGlobal.Application.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/jorge-portela/Documents/GitHub/Backend/JAVA/JAVA_CORE/section13_EnumAndComposition/src/postInteraction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.exampleExercise.localToGlobal.Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exampleExercise.Application.Program" />
+      <module name="section11_DateHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleExercise.Application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exampleExercise.localToGlobal.Application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exampleExercise.localToGlobal.Application.Program" />
+      <module name="section11_DateHour" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleExercise.localToGlobal.Application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.exampleExercise.localToGlobal.Application.Program" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-220112af" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33cd69c6-be24-46ed-84a7-d340a33a786f" name="Changes" comment="" />
+      <created>1708745881460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708745881460</updated>
+      <workItem from="1708745882496" duration="183000" />
+      <workItem from="1708746071486" duration="845000" />
+      <workItem from="1708799688471" duration="10191000" />
+      <workItem from="1708886014648" duration="1195000" />
+      <workItem from="1708887214550" duration="569000" />
+      <workItem from="1708887788707" duration="184000" />
+      <workItem from="1708887980094" duration="1195000" />
+      <workItem from="1708889183190" duration="13377000" />
+      <workItem from="1708923063247" duration="1300000" />
+      <workItem from="1708996482684" duration="101000" />
+      <workItem from="1709265029917" duration="1433000" />
+      <workItem from="1709305531200" duration="1204000" />
+      <workItem from="1709331013808" duration="15000" />
+      <workItem from="1709332028823" duration="750000" />
+      <workItem from="1709439246609" duration="1577000" />
+      <workItem from="1709607725460" duration="698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
